@@ -17,6 +17,7 @@ row_headers=[x[0] for x in c.description]
 #print(row_headers)
 #js=json.dumps(res,sort_keys=True, indent=4, separators=(',', ': '),)
 jsondata=[]
+
 for i,row in enumerate(res):
     jsondata.append(dict(zip(row_headers, row)))
     print("Qe."+str(i+1),row[3]," \n1. ",row[4]," \n2. ",row[5],"\n3. ",row[6]," \n4. ",row[7])
