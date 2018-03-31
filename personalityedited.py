@@ -151,14 +151,24 @@ def aptiresult():
     print(args)
     c.execute("select * from mcqquestionsfinal")
     res=c.fetchall()
-    score=0
+    scoreverbal=0
+    scorelogical=0
+    scorequant=0
     for i,row in enumerate(res):
         if (args['aptique' + str(i+1)] != None):
             print('aptique' + str(i+1), args['aptique' + str(i+1)])
             ans=args['aptique' + str(i+1)]
-            if int(row[8])==int(ans):
-                score=score+1
-    return "your score is :"+str(score)
+            if(row[1]==1):
+                if int(row[8])==int(ans):
+                    scoreverbal=scoreverbal+1
+            if (row[1] == 2):
+                if int(row[8]) == int(ans):
+                    scorelogical = scorelogical + 1
+            if (row[1] == 3):
+                if int(row[8]) == int(ans):
+                    scorequant = scorequant + 1
+
+    return "your verbal score is :"+str(scoreverbal)
 
 if __name__ == '__main__':
     app.run(host=ip,debug=True)

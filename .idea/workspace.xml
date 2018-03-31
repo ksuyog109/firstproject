@@ -24,7 +24,7 @@
     <SUITE FILE_PATH="coverage/fiurst_pycharm$aa.coverage" NAME="aa Coverage Results" MODIFIED="1516568590488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
     <SUITE FILE_PATH="coverage/fiurst_pycharm$first.coverage" NAME="first Coverage Results" MODIFIED="1516567868393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/fiurst_pycharm$pressure.coverage" NAME="pressure Coverage Results" MODIFIED="1522217759292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/fiurst_pycharm$personalityedited.coverage" NAME="personalityedited Coverage Results" MODIFIED="1522474203068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/fiurst_pycharm$personalityedited.coverage" NAME="personalityedited Coverage Results" MODIFIED="1522475472487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/fiurst_pycharm$margin.coverage" NAME="margin Coverage Results" MODIFIED="1522217729255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/fiurst_pycharm$third.coverage" NAME="third Coverage Results" MODIFIED="1521955666909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/fiurst_pycharm$scikitlearn.coverage" NAME="scikitlearn Coverage Results" MODIFIED="1522352609595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -67,16 +67,16 @@
       <file leaf-file-name="personalityedited.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/personalityedited.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="160" column="12" lean-forward="true" selection-start-line="160" selection-start-column="12" selection-end-line="160" selection-end-column="12" />
+            <state relative-caret-position="180">
+              <caret line="168" column="43" lean-forward="false" selection-start-line="168" selection-start-column="43" selection-end-line="168" selection-end-column="43" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
-                <marker date="1522475052375" expanded="true" signature="429:443" ph="select * fro... personalitysorted" />
-                <marker date="1522475052375" expanded="true" signature="429:460" ph="select * fro... personalitysorted" />
-                <marker date="1522475052375" expanded="true" signature="4562:4647" ph="select * fro... mcqquestionsfinal" />
-                <marker date="1522475052375" expanded="true" signature="4709:4794" ph="select * fro... mcqquestionsfinal" />
-                <marker date="1522475052375" expanded="true" signature="4839:4924" ph="select * fro... mcqquestionsfinal" />
-                <marker date="1522475052375" expanded="true" signature="5199:5230" ph="select * fro... mcqquestionsfinal" />
+                <marker date="1522475780915" expanded="true" signature="429:443" ph="select * fro... personalitysorted" />
+                <marker date="1522475780915" expanded="true" signature="429:460" ph="select * fro... personalitysorted" />
+                <marker date="1522475780915" expanded="true" signature="4562:4647" ph="select * fro... mcqquestionsfinal" />
+                <marker date="1522475780915" expanded="true" signature="4709:4794" ph="select * fro... mcqquestionsfinal" />
+                <marker date="1522475780915" expanded="true" signature="4839:4924" ph="select * fro... mcqquestionsfinal" />
+                <marker date="1522475780915" expanded="true" signature="5199:5230" ph="select * fro... mcqquestionsfinal" />
               </folding>
             </state>
           </provider>
@@ -85,7 +85,7 @@
       <file leaf-file-name="test.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/test.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1405">
+            <state relative-caret-position="2520">
               <caret line="158" column="0" lean-forward="false" selection-start-line="158" selection-start-column="0" selection-end-line="159" selection-end-column="64" />
               <folding />
             </state>
@@ -580,7 +580,14 @@
       <option name="project" value="LOCAL" />
       <updated>1522474339854</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="change in aptimodule">
+      <created>1522475085179</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1522475085179</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1216,14 +1223,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1405">
-          <caret line="158" column="0" lean-forward="false" selection-start-line="158" selection-start-column="0" selection-end-line="159" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/aptitest.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
@@ -1245,18 +1244,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2520">
+          <caret line="158" column="0" lean-forward="false" selection-start-line="158" selection-start-column="0" selection-end-line="159" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/personalityedited.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="160" column="12" lean-forward="true" selection-start-line="160" selection-start-column="12" selection-end-line="160" selection-end-column="12" />
+        <state relative-caret-position="180">
+          <caret line="168" column="43" lean-forward="false" selection-start-line="168" selection-start-column="43" selection-end-line="168" selection-end-column="43" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1522475052375" expanded="true" signature="429:443" ph="select * fro... personalitysorted" />
-            <marker date="1522475052375" expanded="true" signature="429:460" ph="select * fro... personalitysorted" />
-            <marker date="1522475052375" expanded="true" signature="4562:4647" ph="select * fro... mcqquestionsfinal" />
-            <marker date="1522475052375" expanded="true" signature="4709:4794" ph="select * fro... mcqquestionsfinal" />
-            <marker date="1522475052375" expanded="true" signature="4839:4924" ph="select * fro... mcqquestionsfinal" />
-            <marker date="1522475052375" expanded="true" signature="5199:5230" ph="select * fro... mcqquestionsfinal" />
+            <marker date="1522475780915" expanded="true" signature="429:443" ph="select * fro... personalitysorted" />
+            <marker date="1522475780915" expanded="true" signature="429:460" ph="select * fro... personalitysorted" />
+            <marker date="1522475780915" expanded="true" signature="4562:4647" ph="select * fro... mcqquestionsfinal" />
+            <marker date="1522475780915" expanded="true" signature="4709:4794" ph="select * fro... mcqquestionsfinal" />
+            <marker date="1522475780915" expanded="true" signature="4839:4924" ph="select * fro... mcqquestionsfinal" />
+            <marker date="1522475780915" expanded="true" signature="5199:5230" ph="select * fro... mcqquestionsfinal" />
           </folding>
         </state>
       </provider>
