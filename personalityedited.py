@@ -158,7 +158,7 @@ def aptiresult():
             ans=args['aptique' + str(i+1)]
             if int(row[8])==int(ans):
                 score=score+1
-    return str(score)
+    return "your score is :"+str(score)
 
 if __name__ == '__main__':
     app.run(host=ip,debug=True)
