@@ -150,10 +150,15 @@ def aptiresult():
     args = parser.parse_args()
     print(args)
     c.execute("select * from mcqquestionsfinal")
-    for i in range(1,231):
-        if(args['aptique'+str(i)]!=None):
-            print('aptique'+str(i),args['aptique'+str(i)])
-
+    res=c.fetchall()
+    score=0
+    for i,row in enumerate(res):
+        if (args['aptique' + str(i+1)] != None):
+            print('aptique' + str(i+1), args['aptique' + str(i+1)])
+            ans=args['aptique' + str(i+1)]
+            if int(row[8])==int(ans):
+                score=score+1
+    return str(score)
 
 if __name__ == '__main__':
     app.run(host=ip,debug=True)
