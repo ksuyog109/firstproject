@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <form class="form" action="http://{{ip}}:5000/aptiresult" method="get">
+        {% set count = [1] %}
+        {% for item in aptires %}
+            <div class="switch-field">
+                <div class="switch-title">Q.{{ count[0] }} {{item[3]}}</div>
+                <input  type="radio" id="op1_{{item[0]}}"  name="aptique{{item[0]}}" value="1" required/>
+      <label for="op1_{{item[0]}}" >{{item[4]}}</label>
+            <input  type="radio" id="op2_{{item[0]}}"  name="aptique{{item[0]}}" value="2" required/>
+      <label for="op2_{{item[0]}}" >{{item[5]}}</label>
+                <input  type="radio" id="op3_{{item[0]}}"  name="aptique{{item[0]}}" value="3" required/>
+      <label for="op3_{{item[0]}}" >{{item[6]}}</label>
+                <input  type="radio" id="op4_{{item[0]}}"  name="aptique{{item[0]}}" value="4" required/>
+      <label for="op4_{{item[0]}}" >{{item[7]}}</label><br><br>
+            {% if count.append(count.pop() + 1) %}{% endif %}
+            </div>
+        {% endfor %}
+
+
+        {% for item in verbalmid %}
+            <div class="switch-field">
+                <div class="switch-title">Q.{{ count[0] }} {{item[3]}}</div>
+                <input  type="radio" id="op1_{{item[0]}}"  name="aptique{{item[0]}}" value="1" required/>
+      <label for="op1_{{item[0]}}" >{{item[4]}}</label>
+            <input  type="radio" id="op2_{{item[0]}}"  name="aptique{{item[0]}}" value="2" required/>
+      <label for="op2_{{item[0]}}" >{{item[5]}}</label>
+                <input  type="radio" id="op3_{{item[0]}}"  name="aptique{{item[0]}}" value="3" required/>
+      <label for="op3_{{item[0]}}" >{{item[6]}}</label>
+                <input  type="radio" id="op4_{{item[0]}}"  name="aptique{{item[0]}}" value="4" required/>
+      <label for="op4_{{item[0]}}" >{{item[7]}}</label><br><br>
+            {% if count.append(count.pop() + 1) %}{% endif %}
+            </div>
+        {% endfor %}
+
+
+        {% for item in verbalhard %}
+            <div class="switch-field">
+                <div class="switch-title">Q.{{ count[0] }} {{item[3]}}</div>
+                <input  type="radio" id="op1_{{item[0]}}"  name="aptique{{item[0]}}" value="1" required/>
+      <label for="op1_{{item[0]}}" >{{item[4]}}</label>
+            <input  type="radio" id="op2_{{item[0]}}"  name="aptique{{item[0]}}" value="2" required/>
+      <label for="op2_{{item[0]}}" >{{item[5]}}</label>
+                <input  type="radio" id="op3_{{item[0]}}"  name="aptique{{item[0]}}" value="3" required/>
+      <label for="op3_{{item[0]}}" >{{item[6]}}</label>
+                <input  type="radio" id="op4_{{item[0]}}"  name="aptique{{item[0]}}" value="4" required/>
+      <label for="op4_{{item[0]}}" >{{item[7]}}</label><br><br>
+            {% if count.append(count.pop() + 1) %}{% endif %}
+            </div>
+        {% endfor %}
+
+      <button type="submit" class="button button2">Next</button>
+    </form>
+</head>
+<body>
+
+</body>
+</html>

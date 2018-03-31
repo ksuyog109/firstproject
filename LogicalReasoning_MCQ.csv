@@ -1,0 +1,77 @@
+srno,q,o1,o2,o3,o4,ans
+1,"Read the following information to answer the given questions. 
+1. Pepper Potts, Hulk, Ironman, Hawkeye, Thor, Loki and Black Widow are sitting in a circle.
+2. Pepper Potts, Hulk, Ironman, Hawkeye, Loki and Black Widow are sitting at equal distances from each other.
+3. Ironman is sitting two places right of Loki, who is sitting one place right of Hawkeye.
+4. Pepper Potts forms an angle of 90° from Thor and an angle of 120° from Hulk. 5. Hulk is just opposite Black Widow and is sitting on the left of Thor.Which of the following statements is not correct? 
+5. Hulk is just opposite Black Widow and is sitting on the left of Thor.
+Which of the following statements is not correct?",Loki is on the right of Hulk.,Hawkeye is sitting next to Ironman.,Thor is sitting adjacent to Loki.,All of the above,d
+2,"Read the following information to answer the given questions. 
+1. Pepper Potts, Hulk, Ironman, Hawkeye, Thor, Loki and Black Widow are sitting in a circle.
+2. Pepper Potts, Hulk, Ironman, Hawkeye, Loki and Black Widow are sitting at equal distances from each other.
+3. Ironman is sitting two places right of Loki, who is sitting one place right of Hawkeye.
+4. Pepper Potts forms an angle of 90° from Thor and an angle of 120° from Hulk. 5. Hulk is just opposite Black Widow and is sitting on the left of Thor.Which of the following statements is not correct? 
+5. Hulk is just opposite Black Widow and is sitting on the left of Thor.
+The angle between Thor and Hulk in the clockwise direction is?",150°,180°,210°,None of these,d
+3,"In the following question, various terms of an alphabet series are given with one or more missing terms as shown by (?). Choose the missing term out of the given alternatives.",XYD,XYE,XYB,XYC,b
+4,"In the following question, various terms of an alphabet series are given with one or more missing terms as shown by (?). Choose the missing term out of the given alternatives.",X,S,Z,W,b
+5," Read the following information carefully and answer the question below.
+1. J + K means J is the son of K
+2. J - K means J is the wife of K
+3. J x K means J is the brother of K
+4. J ÷ K means J is the mother of K
+5. J = K means J is the sister of K
+What does A x B ÷ C mean? ",A is the brother of C,A is the father of C,A is the uncle of C,A is the nephew of C,c
+6,"Read the following information carefully and answer the questions below.
+1. P x Q means P is the father of Q
+2. P - Q means P is the sister of Q
+3. P + Q means P is the mother of Q
+4. P ÷ Q means P is the brother of Q
+Which of the following represents ‘R is niece of M’? ",M – J + R – N, R – M x T - W,M – K x T - R,None of these,a
+7,"1)   In the question below is given a statement followed by two courses of action numbered I and II. You have to assume everything in the statement to be true and based on the information given in the statement, decide which of the suggested courses of action logically follow(s) for pursuing.
+Give answer
+(A) If only I follows
+(B) If only II follows
+(C) If either I or II follows
+(D) If neither I nor II follow
+Statement - Many students have gone on a mass leave in protest against the institute’s new policies.
+Courses of Action - I. The Institute should immediately withdraw the new policies.
+II. All these students should be suspended. ",Only I follows,Only II follows,Either I or II follows,Neither I nor II follow,d
+8,"In the question below is given a statement followed by two courses of action numbered I and II. You have to assume everything in the statement to be true and based on the information given in the statement, decide which of the suggested courses of action logically follow(s) for pursuing.
+Give answer
+(A) If only I follows
+(B) If only II follows
+(C) If either I or II follows
+(D) If neither I nor II follow
+Statement - Hundreds of eligible students fail to get admission in colleges in rural areas after passing their school examination.
+Courses of Action - I. More colleges should be set up in rural areas.
+II. The number of schools in rural areas should be increased.",Only I follows,Only II follows,None follow,Either I or II follow,a
+9,"Decode the word(s) / pattern given in the question If MACHINE is coded as 19 - 7 - 9 - 14 - 15 - 20 - 11, how will you code DANGER ?",13-7-20-9-11-25,10-7-20-13-11-24,13-7-20-10-11-25,11-7-20-16-11-24,b
+10,"Which letter replaces the “?”:
+L : O
+R : I
+E : V
+M : ?",L,N,M,O,b
+11,a) BHHP b) DPHD c) DDHH d) PPBD,A ,B,C,D,c
+12,House : Door :: Compound : ?,Gate,Fence,Foundation,Wall,c
+13, 10 : 91 :: 9 : ?,69,72,9,97,b
+14,Cobbler : Leather :: Carpenter :?,Furniture,Wood,Hammer,Chair,c
+15,"This world is neither good nor evil, each man manufactures a world for himself.
+Conclusions.
+I. Some people find this world quite good. 
+II. Some people find this world quite bad.",Conclusion I follows,Conclusion II follow,neither Conclusion I and II follows,both Conclusions I and II follow,b
+16,"National integration is necessary because there are diversities in India.
+Conclusions.
+1. India is a country of people with diverse cultures, different languages and different social and economic setups.
+2. Ours is a disintegrated nation.",Conclusion I follows,Conclusion II follow,neither Conclusion I and II follows,both Conclusions I and II follow,a
+17,"If in a code language AMARAVATI is coded as ITAVARAMA, then in the same code language JABALPUR will be coded as:  ",RUPLABAJ,RULPABAJ,RUPALBAJ,RUPLABJA,a
+18,"0.5,2.5,7.5,?,23.5,34.5,47.5",11.5  ,12.5    ,14.5,13.5,c
+19,"Below is/are given statement/s followed by two conclusions numbered I and II. You have to take the given statement/s to be true even if they seem to be at variance with the commonly known facts and then decide which of the given conclusions logically follow(s) from the given statement/s, disregarding commonly known fact.
+Statement(s)
+Some clips are small
+All small are big
+Conclusions:
+I)All big are small
+II)All small are clips",only conclusion I follows,Only conclusion II follows,Neither conclusion I nor conclusion II follows,Both conclusion I and conclusion II follows,c
+20,"If A means +, B means _, C means X, D means  /, E means square of , F means Square root of; then determine the value of following expression.
+F(E3 A E4) B F(E13 B E12)",25,5,0,15,c

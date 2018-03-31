@@ -1,0 +1,25 @@
+srno,question,opt1,opt2,opt3,opt4,ans
+1," 'ab' is a two digit number and 'ccb' is a three digit number such that (ab)2 = ccb, where 'ccb' is greater than 300. What is the value of 'b'?",0,1,5,6,b
+2," If a!+b!+c!=abc, where a, b & c are distinct decimal digits, find b.",0,1,6,5,c
+3,"What is the HCF of 3/5, 7/10, 2/15, 6/21? ",5/123,6/121,2/105,1/210,d
+4,Sum of 2 numbers is 128 and their HCF is 8. How many numbers of pairs of numbers will satisfy this condition? ,2,5,4,3,c
+5,"Find the least number exactly divisible by 10, 15, 18 and 30. ",85,90,99,88,b
+6,"Find the least number which when divided by15, 21, 24 and 32 leaves the same remainder 2 in each case.",3362,3360,3456,3266,a
+7,"A car started from Indore to Bhopal at a certain speed. The Car missed an accident at 40Kms away from Indore, then the driver decided to reduce Car speed to 4/5 of the original speed. Due to this, he reached Bhopal by a late of 1hr 15min.Suppose if he missed an accident at 80Km away from Indore and from then he maintained 4/5 of original speed then he would reach Bhopal by a late of 1hour. Then what is the original speed of the Car?",20 km/hr,40 km/hr,60 km/hr,80 km/hr,b
+8,Two places A and B are at a certain distance. Ramu started from A towards B at a speed of 40 kmph. After 2 hours Raju started from B towards A at a speed of 60 kmph. If they meet at a place C then ratio of ratio of time taken by Raju to Ramu to reach Place C is 2:3. Then what is the distance between A and B?,300 Km,400 Km,480 Km,600 Km,c
+9,"Car A leaves Delhi at a certain time, after 5 hours Car B leaves Delhi in the same direction as of A. Speed of Car A is 20Km/hr and Speed of Car B is 40Km/hr. In how much time Car B will be 20Km ahead of Car A?",5 Hours,6 Hours, 8 Hours,11 Hours,b
+10,A police saw a Thief at a distance of 2km. When Police started chasing him Thief also started running. If the ratio of Speeds of Police to Thief is 5:4. Then thief was caught at a certain distance then how many Kms did police run to catch the Thief?,5 Km,6 Km,8 Km,10 Km,d
+11,"A bag contains 2 yellow, 3 green and 2 blue balls. Two balls are drawn at random. What is the probability that none of the balls drawn is blue?",  1/2 , 10/21,  9/11,  7/11,b
+12,"There are 15 boys and 10 girls in a class. If three students are selected at random, what is the probability that 1 girl and 2 boys are selected?",  1/40,  1/2 , 21/46,  1/6 ,c
+13,"Find the odd man out. 1, 3, 9, 12, 19, 29",12,9,1,3,a
+14,"Find the odd man out. 187, 264, 386, 473, 682, 781",386,187,781,682,a
+15,"What number will replace '?'
+2, 2, 7, ?, 87, 342",21,22,23,24,b
+16,"What number will replace '?'
+6, 8, 8, 22, ?, 151",43,42,44,47,d
+17,"Which of the following fractions is greater than
+3/5 and less than 6/7?
+",  7/8 ,  1/3 ,  2/3 ,  1/2 ,c
+18," Two ships are sailing in the sea on the two sides of a lighthouse. The angle of elevation of the top of the lighthouse is observed from the ships are 30º and 45º respectively. If the lighthouse is 100 m high, the distance between the two ships is:",300 m,173 m,273 m,200 m,c
+19,"Father is aged three times more than his son Sunil. After 88 years, he would be two and a half times of Sunil's age. After further 88 years, how many times would he be of Sunil's age?",4 times,5 times,2 times,3 times,c
+20,"Present ages of Kiran and Syam are in the ratio of 5:4 respectively. Three years hence, the ratio of their ages will become 11:9 respectively. What is Syam's present age in years?",28,26,24,27,b
