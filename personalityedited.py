@@ -110,7 +110,7 @@ def result():
     elif var ==5:
         typ = '<!DOCTYPE html><html><body><p><b>Your personality type is ISFJ</b></p></body></html>'
     elif var==6:
-        typ='<!DOCTYPE html><html><body><p><b>Your personality type is ENFJ</b></p></body></html>'
+        return render_template('enfj.html')
     elif var==7:
         typ='<!DOCTYPE html><html><body><p><b>Your personality type is INFJ</b></p></body></html>'
     elif var==8:
@@ -133,7 +133,7 @@ def result():
 
 
 
-    return typ
+    return "error"
 @app.route('/aptitude')
 def apti():
     c.execute("select * from mcqquestionsfinal where qtypeid=1 and dtypeid=1 order by rand() limit 8")

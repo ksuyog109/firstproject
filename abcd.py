@@ -1,12 +1,18 @@
 import cv2
 import numpy as np
 from matplotlib import pyplot as plt
-imginput = cv2.imread('vihang.jpg')
+imgname='apoorva.jpg'
+imginput = cv2.imread(imgname)
+imginput=cv2.resize(imginput,(595,842))
+imgproc = cv2.imread(imgname)
+imgproc=cv2.resize(imgproc,(595,842))
+
+
 image=imginput
 print(image.shape)
 
-image=cv2.resize(image,(595,842))
-ori=imginput
+
+ori=image
 finimg=image
 cv2.imshow('orig',image)
 cv2.waitKey(0)
@@ -21,7 +27,7 @@ ret,thresh = cv2.threshold(gray,127,255,cv2.THRESH_BINARY_INV)
 #cv2.waitKey(0)
 
 #dilation
-kernel = np.ones((8,100), np.uint8)
+kernel = np.ones((8,50), np.uint8)
 img_dilation = cv2.dilate(thresh, kernel, iterations=1)
 cv2.imshow('dilated',img_dilation)
 cv2.waitKey(0)
@@ -51,7 +57,7 @@ for i, ctr in enumerate(ctrs):
     x, y, w, h = cv2.boundingRect(ctr)
     #print(x, " ", y, " ", w, " ", h)
     # show ROI
-    roi = image[y:y + h, x:x + w]
+    roi = imgproc[y:y + h, x:x + w]
     #cv2.imshow('segment no:' + str(i), roi)
 
     #cv2.waitKey(0)
@@ -105,11 +111,13 @@ titles = ['gray','final']
 images = [gray,  finimg]
 print("words : ",words)
 words.reverse()
+imgfordisplay = cv2.imread(imgname)
+imgfordisplay=cv2.resize(imgfordisplay,(595,842))
 for cnt,word in enumerate(words):
     print(cnt,word)
     for i,alpha in enumerate(word):
         #print(alpha )
-        letter=ori[alpha[1]:alpha[1]+alpha[3],alpha[0]:alpha[0]+alpha[2]]
+        letter=imgfordisplay[alpha[1]:alpha[1]+alpha[3],alpha[0]:alpha[0]+alpha[2]]
         cv2.imshow('letter',letter)
         cv2.waitKey(0)
         cv2.imwrite('letter'+str(cnt+1)+str(i+1)+'.jpg',letter)
