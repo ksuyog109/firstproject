@@ -1,6 +1,7 @@
 import MySQLdb
 from flask import Flask,render_template,flash
 from flask_restful import reqparse
+import json
 import socket
 app = Flask(__name__)
 parser = reqparse.RequestParser()
@@ -138,12 +139,28 @@ def apti():
     c.execute("select * from mcqquestionsfinal where qtypeid=1 and dtypeid=1 order by rand() limit 8")
     score = 0
     verbaleasy = c.fetchall()
+    d={}
+    questioncount=1
+    for row in verbaleasy:
+        d['que'+str(questioncount)]={'id':str(row[0]),'qtype':row[1],'dtype':row[2],'question':str(row[3]),'opt1':str(row[4]),'opt2':str(row[5]),'opt3':str(row[6]),'opt4':str(row[7]),'correct':str(row[8])}
+        questioncount= questioncount+1
+    print(d)
     c.execute("select * from mcqquestionsfinal where qtypeid=1 and dtypeid=2 order by rand() limit 8")
     verbalmid=c.fetchall()
+    for row in verbalmid:
+        d['que'+str(questioncount)]={'id':str(row[0]),'qtype':row[1],'dtype':row[2],'question':str(row[3]),'opt1':str(row[4]),'opt2':str(row[5]),'opt3':str(row[6]),'opt4':str(row[7]),'correct':str(row[8])}
+        questioncount= questioncount+1
     c.execute("select * from mcqquestionsfinal where qtypeid=1 and dtypeid=3 order by rand() limit 4")
     verbalhard = c.fetchall()
+    for row in verbalhard:
+        d['que'+str(questioncount)]={'id':str(row[0]),'qtype':row[1],'dtype':row[2],'question':str(row[3]),'opt1':str(row[4]),'opt2':str(row[5]),'opt3':str(row[6]),'opt4':str(row[7]),'correct':str(row[8])}
+        questioncount= questioncount+1
     #print(aptireseasy)
 
+    data=json.dumps(d)
+    print(data)
+
+    return render_template()
     return render_template("aptitest.html",ip=ip,aptires=verbaleasy,verbalmid=verbalmid,verbalhard=verbalhard)
 @app.route('/aptiresult')
 def aptiresult():
