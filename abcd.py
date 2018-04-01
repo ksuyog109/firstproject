@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 from matplotlib import pyplot as plt
-imgname='apoorva.jpg'
+imgname='vihangsmall.jpg'
 imginput = cv2.imread(imgname)
 imginput=cv2.resize(imginput,(595,842))
 imgproc = cv2.imread(imgname)
@@ -27,7 +27,7 @@ ret,thresh = cv2.threshold(gray,127,255,cv2.THRESH_BINARY_INV)
 #cv2.waitKey(0)
 
 #dilation
-kernel = np.ones((8,50), np.uint8)
+kernel = np.ones((8,100), np.uint8)
 img_dilation = cv2.dilate(thresh, kernel, iterations=1)
 cv2.imshow('dilated',img_dilation)
 cv2.waitKey(0)
@@ -80,12 +80,13 @@ for i, ctr in enumerate(ctrs):
         xroi, yroi, wroi, hroi = cv2.boundingRect(ctrroi)
         # Getting ROI
         roiroi = roi[yroi:yroi + hroi, xroi:xroi + wroi]
-        vect = [xroi + x, yroi + y, wroi, hroi]
-        wordsbyline.append(vect)
+        if hroi > 15 and wroi > 15:
+            vect = [xroi + x, yroi + y, wroi, hroi]
+            wordsbyline.append(vect)
 
         #print("inner ",xroi, " ", yroi, " ", wroi, " ", hroi)
         #cv2.imshow('innersegment no:' + str(iroi), roiroi)
-        cv2.rectangle(finimg, (x+xroi, y+yroi), (x+xroi + wroi, y+yroi + hroi), (0 , 255, 0), 2)
+            cv2.rectangle(finimg, (x+xroi, y+yroi), (x+xroi + wroi, y+yroi + hroi), (0 , 255, 0), 2)
         #cv2.waitKey(0)
         sumwroi=sumwroi+wroi
 
@@ -111,8 +112,11 @@ titles = ['gray','final']
 images = [gray,  finimg]
 print("words : ",words)
 words.reverse()
-imgfordisplay = cv2.imread(imgname)
-imgfordisplay=cv2.resize(imgfordisplay,(595,842))
+imgfordisplay = cv2.imread(imgname,0)
+ret, imgfdthresh = cv2.threshold(imgfordisplay, 127, 255, cv2.THRESH_BINARY_INV)
+print("imgford",imgfdthresh )
+imgfordisplay=cv2.resize(imgfdthresh,(595,842))
+lettercount=1
 for cnt,word in enumerate(words):
     print(cnt,word)
     for i,alpha in enumerate(word):
@@ -120,9 +124,41 @@ for cnt,word in enumerate(words):
         letter=imgfordisplay[alpha[1]:alpha[1]+alpha[3],alpha[0]:alpha[0]+alpha[2]]
         cv2.imshow('letter',letter)
         cv2.waitKey(0)
-        cv2.imwrite('letter'+str(cnt+1)+str(i+1)+'.jpg',letter)
+        cv2.imwrite('letter_'+str(lettercount)+'.jpg',letter)
+        lettercount=lettercount+1
+
+upx =0
+upy=0
+lowx=0
+lowy=0
+sumslope=0
+for i in range(1,11):
+    letterlnt=cv2.imread("letter_"+str(i)+".jpg",0 )
+    row,col=letterlnt.shape
+    #print("letter"+str(i-1),letterlnt)
+    for i in range(row):
+        for j in range(col):
+            if(letterlnt[i][j]>127):
+                lowx=j
+                lowy=i
+                break
 
 
+    for i in range(row-1,-1,-1):
+        for j in range(col):
+            if(letterlnt[i][j]>127):
+                upx = j
+                upy = i
+                break
+    #print("upx upy", upx, upy)
+    #print(" lowx lowy ",lowx,lowy)
+    if(upx!=lowx):
+        print("slope temp -",(upy-lowy)/(upx-lowx))
+        sumslope+= (upy-lowy)/(upx-lowx)
+    else:
+        sumslope+=35
+slope=sumslope/10
+print("SLOPE",slope)
 for i in range(2):
     plt.subplot(1,2,i+1),plt.imshow(images[i],'gray')
     plt.title(titles[i])
