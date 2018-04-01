@@ -27,7 +27,7 @@ app.secret_key = 'some_secret'
 @app.route('/')
 def home():
     flash("asas")
-    return "sfsfa"
+    return render_template("SAMDNBHVBASND.htm")
 @app.route('/test')
 def test():
     return render_template('test.html',res=res,ip=ip)
