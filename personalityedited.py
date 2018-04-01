@@ -27,7 +27,7 @@ app.secret_key = 'some_secret'
 @app.route('/')
 def home():
     flash("asas")
-    return render_template("SAMDNBHVBASND.htm")
+    return render_template("error.html",ip=ip)
 @app.route('/test')
 def test():
     return render_template('test.html',res=res,ip=ip)
@@ -99,51 +99,48 @@ def result():
     #ph no: 9689161414 ram pawle
     if var==0:
         return render_template('ESTJ.html')
-        typ='<!DOCTYPE html><html><body><p><b>Your personality type is ESTJ. </b></p></body></html>'
+
     elif var==1:
-        return render_template()
-        typ='<!DOCTYPE html><html><body><p><b>Your personality type is ISTJ</b></p></body></html>'
+        return render_template('istj.html')
+
     elif var==2:
         return render_template('ENTJ.html')
-        typ='<!DOCTYPE html><html><body><p><b>Your personality type is ENTJ</b></p></body></html>'
+
     elif var==3:
-        return render_template()
-        typ='<!DOCTYPE html><html><body><p><b>Your personality type is INTJ</b></p></body></html>'
+        return render_template('intj.html')
+
     elif var ==4:
         return render_template('ESFJ.html')
-        typ = '<!DOCTYPE html><html><body><p><b>Your personality type is ESFJ</b></p></body></html>'
+
     elif var ==5:
-        return render_template()
-        typ = '<!DOCTYPE html><html><body><p><b>Your personality type is ISFJ</b></p></body></html>'
+        return render_template('isfj.html')
+
     elif var==6:
         return render_template('enfj.html')
     elif var==7:
-        return render_template('.html')
-        typ='<!DOCTYPE html><html><body><p><b>Your personality type is INFJ</b></p></body></html>'
+        return render_template('infj.html')
+
     elif var==8:
         return render_template('ESTP.html')
-        typ = '<!DOCTYPE html><html><body><p><b>Your personality type is ESTP</b></p></body></html>'
+
     elif var == 9:
-        return render_template('.html')
-        typ = '<!DOCTYPE html><html><body><p><b>Your personality type is ISTP</b></p></body></html>'
+        return render_template('istp.html')
+
     elif var == 10:
         return render_template('ENTP.html')
-        typ = '<!DOCTYPE html><html><body><p><b>Your personality type is ENTP</b></p></body></html>'
+
     elif var == 11:
-        return render_template('.html')
-        typ = '<!DOCTYPE html><html><body><p><b>Your personality type is INTP</b></p></body></html>'
+        return render_template('intp.html')
+
     elif var == 12:
         return render_template('ESFP.html')
-        typ = '<!DOCTYPE html><html><body><p><b>Your personality type is ESFP</b></p></body></html>'
+
     elif var == 13:
-        return render_template('.html')
-        typ = '<!DOCTYPE html><html><body><p><b>Your personality type is ISFP</b></p></body></html>'
+        return render_template('isfp.html')
     elif var == 14:
         return render_template('ENFP.html')
-        typ = '<!DOCTYPE html><html><body><p><b>Your personality type is ENFP</b></p></body></html>'
     elif var == 15:
-        return render_template('.html')
-        typ = '<!DOCTYPE html><html><body><p><b>Your personality type is INFP</b></p></body></html>'
+        return render_template('infp.html')
 
 
 

@@ -1,49 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5bea52f5-4656-40b1-b9e3-4ebfdbdddc41" name="Default" comment="add">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/abcresized.jpg" afterPath="$PROJECT_DIR$/abcresized.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/letter11.jpg" afterPath="$PROJECT_DIR$/letter11.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/letter111.jpg" afterPath="$PROJECT_DIR$/letter111.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/letter112.jpg" afterPath="$PROJECT_DIR$/letter112.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/letter113.jpg" afterPath="$PROJECT_DIR$/letter113.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/letter114.jpg" afterPath="$PROJECT_DIR$/letter114.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/letter115.jpg" afterPath="$PROJECT_DIR$/letter115.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/letter12.jpg" afterPath="$PROJECT_DIR$/letter12.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/letter121.jpg" afterPath="$PROJECT_DIR$/letter121.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/letter13.jpg" afterPath="$PROJECT_DIR$/letter13.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/letter14.jpg" afterPath="$PROJECT_DIR$/letter14.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/letter15.jpg" afterPath="$PROJECT_DIR$/letter15.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/letter16.jpg" afterPath="$PROJECT_DIR$/letter16.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/letter21.jpg" afterPath="$PROJECT_DIR$/letter21.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/letter22.jpg" afterPath="$PROJECT_DIR$/letter22.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/letter23.jpg" afterPath="$PROJECT_DIR$/letter23.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/letter24.jpg" afterPath="$PROJECT_DIR$/letter24.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/letter25.jpg" afterPath="$PROJECT_DIR$/letter25.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/letter31.jpg" afterPath="$PROJECT_DIR$/letter31.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/letter32.jpg" afterPath="$PROJECT_DIR$/letter32.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/letter33.jpg" afterPath="$PROJECT_DIR$/letter33.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/letter34.jpg" afterPath="$PROJECT_DIR$/letter34.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/letter35.jpg" afterPath="$PROJECT_DIR$/letter35.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/letter41.jpg" afterPath="$PROJECT_DIR$/letter41.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/letter42.jpg" afterPath="$PROJECT_DIR$/letter42.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/letter43.jpg" afterPath="$PROJECT_DIR$/letter43.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/letter44.jpg" afterPath="$PROJECT_DIR$/letter44.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/letter45.jpg" afterPath="$PROJECT_DIR$/letter45.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/letter46.jpg" afterPath="$PROJECT_DIR$/letter46.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/letter51.jpg" afterPath="$PROJECT_DIR$/letter51.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/letter52.jpg" afterPath="$PROJECT_DIR$/letter52.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/letter53.jpg" afterPath="$PROJECT_DIR$/letter53.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/letter54.jpg" afterPath="$PROJECT_DIR$/letter54.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/letter55.jpg" afterPath="$PROJECT_DIR$/letter55.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/letter61.jpg" afterPath="$PROJECT_DIR$/letter61.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/letter62.jpg" afterPath="$PROJECT_DIR$/letter62.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/letter63.jpg" afterPath="$PROJECT_DIR$/letter63.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/letter64.jpg" afterPath="$PROJECT_DIR$/letter64.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/letter65.jpg" afterPath="$PROJECT_DIR$/letter65.jpg" />
+    <list default="true" id="5bea52f5-4656-40b1-b9e3-4ebfdbdddc41" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/abcd.py" afterPath="$PROJECT_DIR$/abcd.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/personalityedited.py" afterPath="$PROJECT_DIR$/personalityedited.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/test.html" afterPath="$PROJECT_DIR$/templates/test.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -64,7 +25,7 @@
     <SUITE FILE_PATH="coverage/fiurst_pycharm$aa.coverage" NAME="aa Coverage Results" MODIFIED="1516568590488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
     <SUITE FILE_PATH="coverage/fiurst_pycharm$first.coverage" NAME="first Coverage Results" MODIFIED="1516567868393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/fiurst_pycharm$pressure.coverage" NAME="pressure Coverage Results" MODIFIED="1522217759292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/fiurst_pycharm$personalityedited.coverage" NAME="personalityedited Coverage Results" MODIFIED="1522581400491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/fiurst_pycharm$personalityedited.coverage" NAME="personalityedited Coverage Results" MODIFIED="1522586950751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/fiurst_pycharm$margin.coverage" NAME="margin Coverage Results" MODIFIED="1522217729255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/fiurst_pycharm$abcd.coverage" NAME="abcd Coverage Results" MODIFIED="1522583383476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/fiurst_pycharm$third.coverage" NAME="third Coverage Results" MODIFIED="1521955666909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -85,20 +46,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="personalityedited.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="personalityedited.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/personalityedited.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1335">
-              <caret line="135" column="17" lean-forward="false" selection-start-line="135" selection-start-column="17" selection-end-line="135" selection-end-column="17" />
+            <state relative-caret-position="-4410">
+              <caret line="2" column="27" lean-forward="true" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
               <folding>
-                <element signature="e#0#14#0" expanded="true" />
-                <marker date="1522584373081" expanded="true" signature="441:455" ph="select * fro... personalitysorted" />
-                <marker date="1522584373081" expanded="true" signature="441:472" ph="select * fro... personalitysorted" />
-                <marker date="1522584373081" expanded="true" signature="4552:4637" ph="select * fro... mcqquestionsfinal" />
-                <marker date="1522584373081" expanded="true" signature="5013:5098" ph="select * fro... mcqquestionsfinal" />
-                <marker date="1522584373081" expanded="true" signature="5414:5499" ph="select * fro... mcqquestionsfinal" />
-                <marker date="1522584373081" expanded="true" signature="6115:6146" ph="select * fro... mcqquestionsfinal" />
+                <marker date="1522586897118" expanded="true" signature="441:455" ph="select * fro... personalitysorted" />
+                <marker date="1522586897118" expanded="true" signature="441:472" ph="select * fro... personalitysorted" />
+                <marker date="1522586897118" expanded="true" signature="3716:3801" ph="select * fro... mcqquestionsfinal" />
+                <marker date="1522586897118" expanded="true" signature="4177:4262" ph="select * fro... mcqquestionsfinal" />
+                <marker date="1522586897118" expanded="true" signature="4578:4663" ph="select * fro... mcqquestionsfinal" />
+                <marker date="1522586897118" expanded="true" signature="5279:5310" ph="select * fro... mcqquestionsfinal" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/test.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="278">
+              <caret line="135" column="105" lean-forward="false" selection-start-line="135" selection-start-column="105" selection-end-line="135" selection-end-column="105" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="error.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/error.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1458">
+              <caret line="160" column="20" lean-forward="true" selection-start-line="160" selection-start-column="20" selection-end-line="160" selection-end-column="20" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -106,7 +86,7 @@
       <file leaf-file-name="margin.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/margin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
+            <state relative-caret-position="-1640">
               <caret line="112" column="24" lean-forward="false" selection-start-line="112" selection-start-column="18" selection-end-line="112" selection-end-column="24" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
@@ -169,31 +149,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="aptitest.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="aptitest.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/aptitest.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="803">
+            <state relative-caret-position="2135">
               <caret line="61" column="7" lean-forward="false" selection-start-line="61" selection-start-column="7" selection-end-line="61" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="third.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/third.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3150">
-              <caret line="96" column="42" lean-forward="false" selection-start-line="96" selection-start-column="42" selection-end-line="96" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="demo.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5390">
-              <caret line="157" column="41" lean-forward="false" selection-start-line="157" selection-start-column="41" selection-end-line="157" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -215,10 +175,10 @@
       <find>shape</find>
       <find>avgfree</find>
       <find>imshow</find>
-      <find>finimg</find>
       <find>print</find>
       <find>image</find>
       <find>imread</find>
+      <find>finimg</find>
     </findStrings>
     <replaceStrings>
       <replace>imgforprocess</replace>
@@ -245,7 +205,6 @@
         <option value="$PROJECT_DIR$/margin.py" />
         <option value="$PROJECT_DIR$/third.py" />
         <option value="$PROJECT_DIR$/personality.py" />
-        <option value="$PROJECT_DIR$/templates/test.html" />
         <option value="$PROJECT_DIR$/templates/demo.html" />
         <option value="$PROJECT_DIR$/img in img.py" />
         <option value="$PROJECT_DIR$/scikitlearn.py" />
@@ -254,7 +213,9 @@
         <option value="$PROJECT_DIR$/sql conn.py" />
         <option value="$PROJECT_DIR$/templates/aptitest.html" />
         <option value="$PROJECT_DIR$/abcd.py" />
+        <option value="$PROJECT_DIR$/templates/error.html" />
         <option value="$PROJECT_DIR$/personalityedited.py" />
+        <option value="$PROJECT_DIR$/templates/test.html" />
       </list>
     </option>
   </component>
@@ -343,7 +304,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.abcd">
+  <component name="RunManager" selected="Python.personalityedited">
     <configuration default="false" name="personalityedited" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -596,8 +557,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.abcd" />
-        <item index="1" class="java.lang.String" itemvalue="Python.personalityedited" />
+        <item index="0" class="java.lang.String" itemvalue="Python.personalityedited" />
+        <item index="1" class="java.lang.String" itemvalue="Python.abcd" />
         <item index="2" class="java.lang.String" itemvalue="Python.sql conn" />
         <item index="3" class="java.lang.String" itemvalue="Python.scikitlearn1" />
         <item index="4" class="java.lang.String" itemvalue="Python.scikitlearn" />
@@ -667,7 +628,21 @@
       <option name="project" value="LOCAL" />
       <updated>1522582473289</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add enfj">
+      <created>1522585651538</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1522585651538</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add e wala html files personality test">
+      <created>1522586059201</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1522586059201</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TodoView">
@@ -682,13 +657,13 @@
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1060" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10580021" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10580021" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22843823" sideWeight="0.5064447" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18997669" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22843823" sideWeight="0.4935553" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22843823" sideWeight="0.4935553" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -741,20 +716,15 @@
     <MESSAGE value="change in aptimodule1" />
     <MESSAGE value="addition of abcd module" />
     <MESSAGE value="change of abcd module" />
-    <option name="LAST_COMMIT_MESSAGE" value="change of abcd module" />
+    <MESSAGE value="add enfj" />
+    <MESSAGE value="add e wala html files personality test" />
+    <option name="LAST_COMMIT_MESSAGE" value="add e wala html files personality test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/SECONDreviswd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
-          <caret line="44" column="38" lean-forward="true" selection-start-line="44" selection-start-column="38" selection-end-line="44" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/first.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -1215,7 +1185,7 @@
         <state relative-caret-position="630">
           <caret line="23" column="4" lean-forward="false" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
           <folding>
-            <element signature="e#0#24#0" expanded="true" />
+            <element signature="e#0#24#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1241,7 +1211,7 @@
         <state relative-caret-position="140">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1256,14 +1226,6 @@
             <marker date="1522467823059" expanded="true" signature="1053:1133" ph="select * fro... mcqquestions" />
             <marker date="1522467823059" expanded="true" signature="1509:1589" ph="select * fro... mcqquestions" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2520">
-          <caret line="158" column="0" lean-forward="false" selection-start-line="158" selection-start-column="0" selection-end-line="159" selection-end-column="64" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1307,48 +1269,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/img in img.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1709">
-          <caret line="80" column="44" lean-forward="false" selection-start-line="80" selection-start-column="38" selection-end-line="80" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/abcd.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="385">
           <caret line="29" column="22" lean-forward="false" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/margin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="112" column="24" lean-forward="false" selection-start-line="112" selection-start-column="18" selection-end-line="112" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/personalityedited.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1335">
-          <caret line="135" column="17" lean-forward="false" selection-start-line="135" selection-start-column="17" selection-end-line="135" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-            <marker date="1522584373081" expanded="true" signature="441:455" ph="select * fro... personalitysorted" />
-            <marker date="1522584373081" expanded="true" signature="441:472" ph="select * fro... personalitysorted" />
-            <marker date="1522584373081" expanded="true" signature="4552:4637" ph="select * fro... mcqquestionsfinal" />
-            <marker date="1522584373081" expanded="true" signature="5013:5098" ph="select * fro... mcqquestionsfinal" />
-            <marker date="1522584373081" expanded="true" signature="5414:5499" ph="select * fro... mcqquestionsfinal" />
-            <marker date="1522584373081" expanded="true" signature="6115:6146" ph="select * fro... mcqquestionsfinal" />
           </folding>
         </state>
       </provider>
@@ -1363,9 +1289,60 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/aptitest.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="803">
+        <state relative-caret-position="2135">
           <caret line="61" column="7" lean-forward="false" selection-start-line="61" selection-start-column="7" selection-end-line="61" selection-end-column="7" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img in img.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1709">
+          <caret line="80" column="44" lean-forward="false" selection-start-line="80" selection-start-column="38" selection-end-line="80" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/margin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1640">
+          <caret line="112" column="24" lean-forward="false" selection-start-line="112" selection-start-column="18" selection-end-line="112" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/error.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1458">
+          <caret line="160" column="20" lean-forward="true" selection-start-line="160" selection-start-column="20" selection-end-line="160" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="135" column="105" lean-forward="false" selection-start-line="135" selection-start-column="105" selection-end-line="135" selection-end-column="105" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/personalityedited.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4410">
+          <caret line="2" column="27" lean-forward="true" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+          <folding>
+            <marker date="1522586897118" expanded="true" signature="441:455" ph="select * fro... personalitysorted" />
+            <marker date="1522586897118" expanded="true" signature="441:472" ph="select * fro... personalitysorted" />
+            <marker date="1522586897118" expanded="true" signature="3716:3801" ph="select * fro... mcqquestionsfinal" />
+            <marker date="1522586897118" expanded="true" signature="4177:4262" ph="select * fro... mcqquestionsfinal" />
+            <marker date="1522586897118" expanded="true" signature="4578:4663" ph="select * fro... mcqquestionsfinal" />
+            <marker date="1522586897118" expanded="true" signature="5279:5310" ph="select * fro... mcqquestionsfinal" />
+          </folding>
         </state>
       </provider>
     </entry>
