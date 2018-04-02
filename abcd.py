@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 from matplotlib import pyplot as plt
-imgname='vihangsmall.jpg'
+imgname='suyog1.jpg'
 imginput = cv2.imread(imgname)
 imginput=cv2.resize(imginput,(595,842))
 imgproc = cv2.imread(imgname)
@@ -80,7 +80,7 @@ for i, ctr in enumerate(ctrs):
         xroi, yroi, wroi, hroi = cv2.boundingRect(ctrroi)
         # Getting ROI
         roiroi = roi[yroi:yroi + hroi, xroi:xroi + wroi]
-        if hroi > 15 and wroi > 15:
+        if hroi > 2 and wroi > 2:
             vect = [xroi + x, yroi + y, wroi, hroi]
             wordsbyline.append(vect)
 
@@ -95,9 +95,9 @@ for i, ctr in enumerate(ctrs):
     nparray = np.matrix(wordsbyline)
     #print(nparray)
     print("nparr :", nparray.shape)
-    for i,alpha in enumerate(nparray):
-        print(alpha.item((0,0)) )
-        letter=image[alpha.item((0,1)):alpha.item((0,1))+alpha.item((0,3)),alpha.item((0,0)):alpha.item((0,0))+alpha.item((0,2))]
+    #for i,alpha in enumerate(nparray):
+        #print(alpha.item((0,0)) )
+        #letter=image[alpha.item((0,1)):alpha.item((0,1))+alpha.item((0,3)),alpha.item((0,0)):alpha.item((0,0))+alpha.item((0,2))]
         #cv2.imshow('letter',letter)
         #cv2.waitKey(0)
     cv2.rectangle(finimg, (x, y), (x + w, y + h), (90, 0, 255), 2)
@@ -150,13 +150,13 @@ for i in range(1,11):
                 upx = j
                 upy = i
                 break
-    #print("upx upy", upx, upy)
-    #print(" lowx lowy ",lowx,lowy)
-    if(upx!=lowx):
-        print("slope temp -",(upy-lowy)/(upx-lowx))
-        sumslope+= (upy-lowy)/(upx-lowx)
+    print("upx upy", upx, upy)
+    print(" lowx lowy ",lowx,lowy)
+    if(upy!=lowy):
+        print("slope temp -",(upx-lowx)/(upy-lowy))
+        sumslope+= (upx-lowx)/(upy-lowy)
     else:
-        sumslope+=35
+        sumslope+=-35
 slope=sumslope/10
 print("SLOPE",slope)
 for i in range(2):
