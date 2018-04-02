@@ -132,6 +132,18 @@ upy=0
 lowx=0
 lowy=0
 sumslope=0
+uppersize=0
+midsize=0
+for i in range(11,16):
+    letterupperzone=cv2.imread("letter_"+str(i)+".jpg",0)
+    uppersize+=letterupperzone.shape[0]
+for i in range(16,21):
+    lettermidzone=cv2.imread("letter_"+str(i)+".jpg",0)
+    midsize+=lettermidzone.shape[0]
+    print("midzone",lettermidzone.shape[0])
+uppersize=uppersize/5
+midsize=midsize/5
+print("upperzone height is ",(uppersize-midsize))
 for i in range(1,11):
     letterlnt=cv2.imread("letter_"+str(i)+".jpg",0 )
     row,col=letterlnt.shape
