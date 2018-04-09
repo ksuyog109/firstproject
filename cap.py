@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 from matplotlib import pyplot as plt
-imgname='suyog1.jpg'
+imgname='vihangcap.jpg'
 imginput = cv2.imread(imgname)
 imginput=cv2.resize(imginput,(595,842))
 imgproc = cv2.imread(imgname)
@@ -127,53 +127,29 @@ for cnt,word in enumerate(words):
         cv2.imwrite('letter_'+str(lettercount)+'.jpg',letter)
         lettercount=lettercount+1
 
-upx =0
-upy=0
-lowx=0
-lowy=0
-sumslope=0
-uppersize=0
-midsize=0
-for i in range(11,16):
-    letterupperzone=cv2.imread("letter_"+str(i)+".jpg",0)
-    uppersize+=letterupperzone.shape[0]
-for i in range(16,21):
-    lettermidzone=cv2.imread("letter_"+str(i)+".jpg",0)
-    midsize+=lettermidzone.shape[0]
-    print("midzone",lettermidzone.shape[0])
-uppersize=uppersize/5
-midsize=midsize/5
-print("upperzone height is ",(uppersize-midsize))
+sumI=0
+sumCap=0
 for i in range(1,11):
     letterlnt=cv2.imread("letter_"+str(i)+".jpg",0 )
     row,col=letterlnt.shape
-    #print("letter"+str(i-1),letterlnt)
-    for i in range(row):
-        for j in range(col):
-            if(letterlnt[i][j]>127):
-                lowx=j
-                lowy=i
-                break
+    sumI += row
+    sumCap += row
+
+for i in range(11,15):
+    letterlnt=cv2.imread("letter_"+str(i)+".jpg",0 )
+    row,col=le  tterlnt.shape
+    sumCap += row
+
+sizeI=sumI/10
+print("I SIZE",sizeI)
+sizeCap=sumCap/15
+print("Cap SIZE",sizeCap)
 
 
-    for i in range(row-1,-1,-1):
-        for j in range(col):
-            if(letterlnt[i][j]>127):
-                upx = j
-                upy = i
-                break
-    print("upx upy", upx, upy)
-    print(" lowx lowy ",lowx,lowy)
-    if(upy!=lowy):
-        print("slope temp -",(upx-lowx)/(upy-lowy))
-        sumslope+= (upx-lowx)/(upy-lowy)
-    else:
-        sumslope+=-35
-slope=sumslope/10
-print("SLOPE",slope)
+'''
 for i in range(2):
     plt.subplot(1,2,i+1),plt.imshow(images[i],'gray')
     plt.title(titles[i])
     plt.xticks([]),plt.yticks([])
 
-plt.show()
+plt.show()'''

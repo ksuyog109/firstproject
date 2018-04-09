@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 #import image
-image = cv2.imread('input1 (500).png')
+image = cv2.imread('input1 (1).png')
 #print(image.shape[0])
 image=image[1000:3542,1000:2479]
 #cv2.imshow('orig',image)
@@ -19,7 +19,7 @@ cv2.imshow('second',thresh)
 cv2.waitKey(0)
 
 #dilation
-kernel = np.ones((5,5), np.uint8)
+kernel = np.ones((5,20), np.uint8)
 img_dilation = cv2.dilate(thresh, kernel, iterations=1)
 cv2.imshow('dilated',img_dilation)
 cv2.waitKey(0)

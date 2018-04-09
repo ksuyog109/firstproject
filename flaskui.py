@@ -171,6 +171,8 @@ def apti():
 
     data=json.dumps(d)
     print(data)
+
+    return render_template()
     return render_template("aptitest.html",ip=ip,aptires=verbaleasy,verbalmid=verbalmid,verbalhard=verbalhard)
 @app.route('/aptiresult')
 def aptiresult():
