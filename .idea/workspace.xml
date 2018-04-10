@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5bea52f5-4656-40b1-b9e3-4ebfdbdddc41" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/abcresized.jpg" afterPath="$PROJECT_DIR$/abcresized.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/attributes.xls" afterPath="$PROJECT_DIR$/attributes.xls" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sql conn.py" afterPath="$PROJECT_DIR$/sql conn.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap.py" afterPath="$PROJECT_DIR$/cap.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo.py" afterPath="$PROJECT_DIR$/demo.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/personalityedited.py" afterPath="$PROJECT_DIR$/personalityedited.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,18 +18,23 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/fiurst_pycharm$login.coverage" NAME="login Coverage Results" MODIFIED="1516597737603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../mini/miniproject-todolist-master" />
+    <SUITE FILE_PATH="coverage/fiurst_pycharm$cap.coverage" NAME="cap Coverage Results" MODIFIED="1523346584462" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/fiurst_pycharm$img_in_img.coverage" NAME="img in img Coverage Results" MODIFIED="1522217610080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/fiurst_pycharm$SECONDreviswd.coverage" NAME="SECONDreviswd Coverage Results" MODIFIED="1517682921015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/fiurst_pycharm$personality.coverage" NAME="personality Coverage Results" MODIFIED="1522084357728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/fiurst_pycharm$scikitlearn1.coverage" NAME="scikitlearn1 Coverage Results" MODIFIED="1522352866836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/fiurst_pycharm$demo.coverage" NAME="demo Coverage Results" MODIFIED="1521780608591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/fiurst_pycharm$flaskui.coverage" NAME="flaskui Coverage Results" MODIFIED="1523266138832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/fiurst_pycharm$demo.coverage" NAME="demo Coverage Results" MODIFIED="1523341462864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/fiurst_pycharm$small.coverage" NAME="small Coverage Results" MODIFIED="1523346650724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/fiurst_pycharm$SECOND.coverage" NAME="SECOND Coverage Results" MODIFIED="1517652972469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/fiurst_pycharm$sql_conn.coverage" NAME="sql conn Coverage Results" MODIFIED="1522402215415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/fiurst_pycharm$Unittests_in_personalityedited_py.coverage" NAME="Unittests in personalityedited.py Coverage Results" MODIFIED="1523266371634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/fiurst_pycharm$sql_conn.coverage" NAME="sql conn Coverage Results" MODIFIED="1522473719445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/fiurst_pycharm$aa.coverage" NAME="aa Coverage Results" MODIFIED="1516568590488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
     <SUITE FILE_PATH="coverage/fiurst_pycharm$first.coverage" NAME="first Coverage Results" MODIFIED="1516567868393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/fiurst_pycharm$pressure.coverage" NAME="pressure Coverage Results" MODIFIED="1522217759292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/fiurst_pycharm$personalityedited.coverage" NAME="personalityedited Coverage Results" MODIFIED="1522400327784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/fiurst_pycharm$margin.coverage" NAME="margin Coverage Results" MODIFIED="1522217729255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/fiurst_pycharm$pressure.coverage" NAME="pressure Coverage Results" MODIFIED="1522740705830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/fiurst_pycharm$personalityedited.coverage" NAME="personalityedited Coverage Results" MODIFIED="1523338567083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/fiurst_pycharm$abcd.coverage" NAME="abcd Coverage Results" MODIFIED="1522652148155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/fiurst_pycharm$margin.coverage" NAME="margin Coverage Results" MODIFIED="1522740072707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/fiurst_pycharm$third.coverage" NAME="third Coverage Results" MODIFIED="1521955666909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/fiurst_pycharm$scikitlearn.coverage" NAME="scikitlearn Coverage Results" MODIFIED="1522352609595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
@@ -44,12 +53,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="pressure.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pressure.py">
+      <file leaf-file-name="personalityedited.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/personalityedited.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="945">
-              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+            <state relative-caret-position="236">
+              <caret line="200" column="29" lean-forward="false" selection-start-line="200" selection-start-column="29" selection-end-line="200" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#14#0" expanded="true" />
+                <marker date="1523338629311" expanded="true" signature="441:472" ph="select * fro... personalitysorted" />
+                <marker date="1523338629311" expanded="true" signature="3727:3812" ph="select * fro... mcqquestionsfinal" />
+                <marker date="1523338629311" expanded="true" signature="4188:4273" ph="select * fro... mcqquestionsfinal" />
+                <marker date="1523338629311" expanded="true" signature="4589:4674" ph="select * fro... mcqquestionsfinal" />
+                <marker date="1523338629311" expanded="true" signature="5260:5291" ph="select * fro... mcqquestionsfinal" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="demo.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3381">
+              <caret line="15" column="33" lean-forward="false" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="margin.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/margin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1659">
+              <caret line="174" column="7" lean-forward="false" selection-start-line="174" selection-start-column="7" selection-end-line="174" selection-end-column="7" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -57,56 +95,65 @@
       <file leaf-file-name="img in img.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/img in img.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="7" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="personalityedited.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/personalityedited.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+            <state relative-caret-position="280">
+              <caret line="11" column="10" lean-forward="false" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
               <folding>
-                <marker date="1522401185453" expanded="true" signature="429:443" ph="select * fro... personalitysorted" />
-                <marker date="1522401185453" expanded="true" signature="429:460" ph="select * fro... personalitysorted" />
-                <marker date="1522401185453" expanded="true" signature="4562:4647" ph="select * fro... mcqquestionsfinal" />
-                <marker date="1522401185453" expanded="true" signature="4709:4794" ph="select * fro... mcqquestionsfinal" />
-                <marker date="1522401185453" expanded="true" signature="4839:4924" ph="select * fro... mcqquestionsfinal" />
-                <marker date="1522401185453" expanded="true" signature="5199:5230" ph="select * fro... mcqquestionsfinal" />
+                <element signature="e#0#10#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/test.html">
+      <file leaf-file-name="SECONDreviswd.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SECONDreviswd.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="158" column="0" lean-forward="false" selection-start-line="158" selection-start-column="0" selection-end-line="159" selection-end-column="64" />
+            <state relative-caret-position="1925">
+              <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="aptitest.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/aptitest.html">
+      <file leaf-file-name="SECOND.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SECOND.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+            <state relative-caret-position="35">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="demo.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/demo.html">
+      <file leaf-file-name="third.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/third.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="3290">
+              <caret line="96" column="42" lean-forward="false" selection-start-line="96" selection-start-column="42" selection-end-line="96" selection-end-column="42" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="small.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/small.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2352">
+              <caret line="176" column="28" lean-forward="false" selection-start-line="176" selection-start-column="28" selection-end-line="176" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cap.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cap.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4865">
+              <caret line="139" column="14" lean-forward="false" selection-start-line="139" selection-start-column="14" selection-end-line="139" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -116,46 +163,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="630">
               <caret line="23" column="4" lean-forward="false" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
-              <folding>
-                <element signature="e#0#24#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="scikitlearn1.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scikitlearn1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="35">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="randomforest.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/randomforest.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sql conn.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sql conn.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding>
-                <element signature="e#253#267#0" expanded="true" />
-                <marker date="1522467823059" expanded="true" signature="388:473" ph="select * fro... mcqquestions" />
-                <marker date="1522467823059" expanded="true" signature="1053:1133" ph="select * fro... mcqquestions" />
-                <marker date="1522467823059" expanded="true" signature="1509:1589" ph="select * fro... mcqquestions" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -173,13 +181,26 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>rectan</find>
-      <find>print</find>
       <find>shape</find>
       <find>avgfree</find>
       <find>imshow</find>
+      <find>print</find>
+      <find>image</find>
+      <find>imread</find>
+      <find>finimg</find>
+      <find>args</find>
+      <find>test</find>
     </findStrings>
+    <replaceStrings>
+      <replace>imgforprocess</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="ksuyog109 &lt;sakshisuyog@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -189,21 +210,27 @@
         <option value="$PROJECT_DIR$/SECOND.py" />
         <option value="$PROJECT_DIR$/SECONDreviswd.py" />
         <option value="$PROJECT_DIR$/first.py" />
-        <option value="$PROJECT_DIR$/demo.py" />
-        <option value="$PROJECT_DIR$/pressure.py" />
         <option value="$PROJECT_DIR$/16personality.py" />
-        <option value="$PROJECT_DIR$/margin.py" />
         <option value="$PROJECT_DIR$/third.py" />
         <option value="$PROJECT_DIR$/personality.py" />
-        <option value="$PROJECT_DIR$/templates/test.html" />
         <option value="$PROJECT_DIR$/templates/demo.html" />
         <option value="$PROJECT_DIR$/img in img.py" />
         <option value="$PROJECT_DIR$/scikitlearn.py" />
         <option value="$PROJECT_DIR$/scikitlearn1.py" />
         <option value="$PROJECT_DIR$/randomforest.py" />
-        <option value="$PROJECT_DIR$/templates/aptitest.html" />
-        <option value="$PROJECT_DIR$/personalityedited.py" />
         <option value="$PROJECT_DIR$/sql conn.py" />
+        <option value="$PROJECT_DIR$/templates/aptitest.html" />
+        <option value="$PROJECT_DIR$/templates/error.html" />
+        <option value="$PROJECT_DIR$/templates/test.html" />
+        <option value="$PROJECT_DIR$/margin.py" />
+        <option value="$PROJECT_DIR$/abcd.py" />
+        <option value="$PROJECT_DIR$/openclose.py" />
+        <option value="$PROJECT_DIR$/small.py" />
+        <option value="$PROJECT_DIR$/pressure.py" />
+        <option value="$PROJECT_DIR$/flaskui.py" />
+        <option value="$PROJECT_DIR$/personalityedited.py" />
+        <option value="$PROJECT_DIR$/demo.py" />
+        <option value="$PROJECT_DIR$/cap.py" />
       </list>
     </option>
   </component>
@@ -235,6 +262,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -264,15 +292,15 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../take-a-g-k-quiz" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -291,7 +319,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.sql conn">
+  <component name="RunManager" selected="Python.small">
+    <configuration default="false" name="Unittests in personalityedited.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="fiurst pycharm" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/personalityedited.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
     <configuration default="false" name="personalityedited" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -311,7 +355,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="scikitlearn" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -324,13 +368,13 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="fiurst pycharm" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scikitlearn.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="pressure" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="cap" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -343,13 +387,13 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="fiurst pycharm" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pressure.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cap.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="scikitlearn1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="small" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -362,26 +406,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="fiurst pycharm" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scikitlearn1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="sql conn" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="fiurst pycharm" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sql conn.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/small.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -536,19 +561,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.personalityedited" />
-      <item index="1" class="java.lang.String" itemvalue="Python.scikitlearn" />
-      <item index="2" class="java.lang.String" itemvalue="Python.pressure" />
-      <item index="3" class="java.lang.String" itemvalue="Python.scikitlearn1" />
-      <item index="4" class="java.lang.String" itemvalue="Python.sql conn" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in personalityedited.py" />
+      <item index="1" class="java.lang.String" itemvalue="Python.personalityedited" />
+      <item index="2" class="java.lang.String" itemvalue="Python.demo" />
+      <item index="3" class="java.lang.String" itemvalue="Python.cap" />
+      <item index="4" class="java.lang.String" itemvalue="Python.small" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.sql conn" />
-        <item index="1" class="java.lang.String" itemvalue="Python.personalityedited" />
-        <item index="2" class="java.lang.String" itemvalue="Python.scikitlearn1" />
-        <item index="3" class="java.lang.String" itemvalue="Python.scikitlearn" />
-        <item index="4" class="java.lang.String" itemvalue="Python.pressure" />
+        <item index="0" class="java.lang.String" itemvalue="Python.small" />
+        <item index="1" class="java.lang.String" itemvalue="Python.cap" />
+        <item index="2" class="java.lang.String" itemvalue="Python.demo" />
+        <item index="3" class="java.lang.String" itemvalue="Python.personalityedited" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in personalityedited.py" />
       </list>
     </recent_temporary>
   </component>
@@ -566,7 +591,133 @@
       <option name="presentableId" value="Default" />
       <updated>1516566025459</updated>
     </task>
+    <task id="LOCAL-00001" summary="change in aptimodule">
+      <created>1522474339854</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1522474339854</updated>
+    </task>
+    <task id="LOCAL-00002" summary="change in aptimodule">
+      <created>1522475085179</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1522475085179</updated>
+    </task>
+    <task id="LOCAL-00003" summary="change in aptimodule1">
+      <created>1522476875856</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1522476875856</updated>
+    </task>
+    <task id="LOCAL-00004" summary="change in aptimodule1">
+      <created>1522571208695</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1522571208696</updated>
+    </task>
+    <task id="LOCAL-00005" summary="addition of abcd module">
+      <created>1522575281882</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1522575281882</updated>
+    </task>
+    <task id="LOCAL-00006" summary="addition of abcd module">
+      <created>1522582456384</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1522582456384</updated>
+    </task>
+    <task id="LOCAL-00007" summary="change of abcd module">
+      <created>1522582473289</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1522582473289</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add enfj">
+      <created>1522585651538</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1522585651538</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add e wala html files personality test">
+      <created>1522586059201</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1522586059201</updated>
+    </task>
+    <task id="LOCAL-00010" summary="add all personalities and embed html in code and add error page">
+      <created>1522587117073</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1522587117073</updated>
+    </task>
+    <task id="LOCAL-00011" summary="abcd slopee determining">
+      <created>1522604322127</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1522604322127</updated>
+    </task>
+    <task id="LOCAL-00012" summary="abcd slopee determining1">
+      <created>1522649803219</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1522649803219</updated>
+    </task>
+    <task id="LOCAL-00013" summary="baseline and upperzone">
+      <created>1522653838869</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1522653838869</updated>
+    </task>
+    <task id="LOCAL-00014" summary="flaskui file created">
+      <created>1523266283121</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1523266283121</updated>
+    </task>
+    <task id="LOCAL-00015" summary="problem for unittests in personalityedited solved">
+      <created>1523338526961</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1523338526961</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_in_personalityedited_py - 2018.04.03 at 13h 01m 01s.xml">
+      <configuration name="Unittests in personalityedited.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_personalityedited_py - 2018.04.03 at 13h 01m 08s.xml">
+      <configuration name="Unittests in personalityedited.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_personalityedited_py - 2018.04.03 at 13h 02m 31s.xml">
+      <configuration name="Unittests in personalityedited.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_personalityedited_py - 2018.04.09 at 14h 54m 08s.xml">
+      <configuration name="Unittests in personalityedited.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_personalityedited_py - 2018.04.09 at 14h 55m 30s.xml">
+      <configuration name="Unittests in personalityedited.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_personalityedited_py - 2018.04.09 at 15h 02m 56s.xml">
+      <configuration name="Unittests in personalityedited.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -581,57 +732,87 @@
     <frame x="-9" y="-9" width="1938" height="1060" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10580021" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10902256" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22843823" sideWeight="0.5064447" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22843823" sideWeight="0.5064447" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22843823" sideWeight="0.4935553" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18997669" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34032634" sideWeight="0.4935553" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32983682" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34201956" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-    </layout>
-    <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4397394" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.121875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997669" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-    </layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34201956" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Concurrent Activities Diagram" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32983682" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="change in aptimodule" />
+    <MESSAGE value="change in aptimodule1" />
+    <MESSAGE value="addition of abcd module" />
+    <MESSAGE value="change of abcd module" />
+    <MESSAGE value="add enfj" />
+    <MESSAGE value="add e wala html files personality test" />
+    <MESSAGE value="add all personalities and embed html in code and add error page" />
+    <MESSAGE value="abcd slopee determining" />
+    <MESSAGE value="abcd slopee determining1" />
+    <MESSAGE value="baseline and upperzone" />
+    <MESSAGE value="flaskui file created" />
+    <MESSAGE value="problem for unittests in personalityedited solved" />
+    <option name="LAST_COMMIT_MESSAGE" value="problem for unittests in personalityedited solved" />
+  </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://C:/Program Files (x86)/Python36-32/Lib/unittest/main.py</url>
+          <line>2</line>
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -658,128 +839,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sql conn.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1225">
-          <caret line="49" column="9" lean-forward="false" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
-          <folding>
-            <element signature="e#253#267#0" expanded="true" />
-            <marker date="1522467823059" expanded="true" signature="388:473" ph="select * fro... mcqquestions" />
-            <marker date="1522467823059" expanded="true" signature="1053:1133" ph="select * fro... mcqquestions" />
-            <marker date="1522467823059" expanded="true" signature="1509:1589" ph="select * fro... mcqquestions" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img in img.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2050">
-          <caret line="84" column="12" lean-forward="false" selection-start-line="84" selection-start-column="12" selection-end-line="84" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../mini/miniproject-todolist-master/login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5375">
-          <caret line="215" column="0" lean-forward="false" selection-start-line="215" selection-start-column="0" selection-end-line="227" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#39#0" expanded="false" />
-            <marker date="1503337856000" expanded="true" signature="993:1053" ph="INSERT INTO login... " />
-            <marker date="1503337856000" expanded="true" signature="1373:1421" ph="SELECT * FRO... login" />
-            <marker date="1503337856000" expanded="true" signature="1540:1559" ph="SELECT * FRO... login" />
-            <marker date="1503337856000" expanded="true" signature="1617:1694" ph="select tid,t... login" />
-            <marker date="1503337856000" expanded="true" signature="1836:1872" ph="select uid f... login" />
-            <marker date="1503337856000" expanded="true" signature="1937:1989" ph="SELECT tid,t... todo" />
-            <marker date="1503337856000" expanded="true" signature="2561:2598" ph="select uid f... login" />
-            <marker date="1503337856000" expanded="true" signature="2750:2816" ph="insert into todo... " />
-            <marker date="1503337856000" expanded="true" signature="2890:2922" ph="select * FRO... todo" />
-            <marker date="1503337856000" expanded="true" signature="2982:3034" ph="SELECT tid,t... todo" />
-            <marker date="1503337856000" expanded="true" signature="3503:3539" ph="select uid f... login" />
-            <marker date="1503337856000" expanded="true" signature="3593:3645" ph="SELECT tid,t... todo" />
-            <marker date="1503337856000" expanded="true" signature="4077:4107" ph="select * fro... todo" />
-            <marker date="1503337856000" expanded="true" signature="4183:4229" ph="UPDATE todo " />
-            <marker date="1503337856000" expanded="true" signature="4297:4365" ph="select * fro... todo" />
-            <marker date="1503337856000" expanded="true" signature="4489:4525" ph="select uid f... login" />
-            <marker date="1503337856000" expanded="true" signature="4584:4636" ph="SELECT tid,t... todo" />
-            <marker date="1503337856000" expanded="true" signature="5190:5220" ph="select * fro... todo" />
-            <marker date="1503337856000" expanded="true" signature="5295:5323" ph="DELETE FROM " />
-            <marker date="1503337856000" expanded="true" signature="5376:5412" ph="select uid f... login" />
-            <marker date="1503337856000" expanded="true" signature="5471:5523" ph="SELECT tid,t... todo" />
-            <marker date="1503337856000" expanded="true" signature="5943:5962" ph="SELECT DATE " />
-            <marker date="1503337856000" expanded="true" signature="5999:6121" ph="select tid,t... login" />
-            <marker date="1503337856000" expanded="true" signature="6378:6397" ph="SELECT DATE " />
-            <marker date="1503337856000" expanded="true" signature="6434:6534" ph="select tid,t... login" />
-            <marker date="1503337856000" expanded="true" signature="6792:6811" ph="SELECT DATE " />
-            <marker date="1503337856000" expanded="true" signature="6850:6951" ph="select tid,t... login" />
-            <marker date="1503337856000" expanded="true" signature="7367:7444" ph="SELECT tid,t... todo" />
-            <marker date="1503337856000" expanded="true" signature="7488:7549" ph="SELECT DISTI... login" />
-            <marker date="1503337856000" expanded="true" signature="8166:8203" ph="select uid f... login" />
-            <marker date="1503337856000" expanded="true" signature="8355:8421" ph="insert into todo... " />
-            <marker date="1503337856000" expanded="true" signature="8495:8527" ph="select * FRO... todo" />
-            <marker date="1503337856000" expanded="true" signature="8585:8662" ph="SELECT tid,t... todo" />
-            <marker date="1503337856000" expanded="true" signature="8713:8774" ph="SELECT DISTI... login" />
-            <marker date="1503337856000" expanded="true" signature="9248:9284" ph="select uid f... login" />
-            <marker date="1503337856000" expanded="true" signature="9338:9415" ph="SELECT tid,t... todo" />
-            <marker date="1503337856000" expanded="true" signature="9458:9520" ph="SELECT DISTI... todo" />
-            <marker date="1503337856000" expanded="true" signature="9948:9978" ph="select * fro... todo" />
-            <marker date="1503337856000" expanded="true" signature="10029:10064" ph="SELECT uid f... login" />
-            <marker date="1503337856000" expanded="true" signature="10135:10187" ph="UPDATE todo " />
-            <marker date="1503337856000" expanded="true" signature="10262:10330" ph="select * fro... todo" />
-            <marker date="1503337856000" expanded="true" signature="10469:10546" ph="SELECT tid,t... todo" />
-            <marker date="1503337856000" expanded="true" signature="10597:10658" ph="SELECT DISTI... login" />
-            <marker date="1503337856000" expanded="true" signature="11220:11250" ph="select * fro... todo" />
-            <marker date="1503337856000" expanded="true" signature="11325:11353" ph="DELETE FROM " />
-            <marker date="1503337856000" expanded="true" signature="11406:11442" ph="select uid f... login" />
-            <marker date="1503337856000" expanded="true" signature="11501:11578" ph="SELECT tid,t... todo" />
-            <marker date="1503337856000" expanded="true" signature="11629:11690" ph="SELECT DISTI... login" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SECOND.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../aa.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="20" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/third.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SECONDreviswd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
-          <caret line="44" column="38" lean-forward="true" selection-start-line="44" selection-start-column="38" selection-end-line="44" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/first.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sql conn.py">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="3" column="14" lean-forward="false" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-          <folding>
-            <element signature="e#253#267#0" expanded="true" />
-            <marker date="1522467823059" expanded="true" signature="388:473" ph="select * fro... mcqquestions" />
-            <marker date="1522467823059" expanded="true" signature="1053:1133" ph="select * fro... mcqquestions" />
-            <marker date="1522467823059" expanded="true" signature="1509:1589" ph="select * fro... mcqquestions" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -787,57 +848,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5300">
           <caret line="215" column="0" lean-forward="false" selection-start-line="215" selection-start-column="0" selection-end-line="227" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#39#0" expanded="false" />
-            <marker date="1503337856000" expanded="true" signature="993:1053" ph="INSERT INTO login... " />
-            <marker date="1503337856000" expanded="true" signature="1373:1421" ph="SELECT * FRO... login" />
-            <marker date="1503337856000" expanded="true" signature="1540:1559" ph="SELECT * FRO... login" />
-            <marker date="1503337856000" expanded="true" signature="1617:1694" ph="select tid,t... login" />
-            <marker date="1503337856000" expanded="true" signature="1836:1872" ph="select uid f... login" />
-            <marker date="1503337856000" expanded="true" signature="1937:1989" ph="SELECT tid,t... todo" />
-            <marker date="1503337856000" expanded="true" signature="2561:2598" ph="select uid f... login" />
-            <marker date="1503337856000" expanded="true" signature="2750:2816" ph="insert into todo... " />
-            <marker date="1503337856000" expanded="true" signature="2890:2922" ph="select * FRO... todo" />
-            <marker date="1503337856000" expanded="true" signature="2982:3034" ph="SELECT tid,t... todo" />
-            <marker date="1503337856000" expanded="true" signature="3503:3539" ph="select uid f... login" />
-            <marker date="1503337856000" expanded="true" signature="3593:3645" ph="SELECT tid,t... todo" />
-            <marker date="1503337856000" expanded="true" signature="4077:4107" ph="select * fro... todo" />
-            <marker date="1503337856000" expanded="true" signature="4183:4229" ph="UPDATE todo " />
-            <marker date="1503337856000" expanded="true" signature="4297:4365" ph="select * fro... todo" />
-            <marker date="1503337856000" expanded="true" signature="4489:4525" ph="select uid f... login" />
-            <marker date="1503337856000" expanded="true" signature="4584:4636" ph="SELECT tid,t... todo" />
-            <marker date="1503337856000" expanded="true" signature="5190:5220" ph="select * fro... todo" />
-            <marker date="1503337856000" expanded="true" signature="5295:5323" ph="DELETE FROM " />
-            <marker date="1503337856000" expanded="true" signature="5376:5412" ph="select uid f... login" />
-            <marker date="1503337856000" expanded="true" signature="5471:5523" ph="SELECT tid,t... todo" />
-            <marker date="1503337856000" expanded="true" signature="5943:5962" ph="SELECT DATE " />
-            <marker date="1503337856000" expanded="true" signature="5999:6121" ph="select tid,t... login" />
-            <marker date="1503337856000" expanded="true" signature="6378:6397" ph="SELECT DATE " />
-            <marker date="1503337856000" expanded="true" signature="6434:6534" ph="select tid,t... login" />
-            <marker date="1503337856000" expanded="true" signature="6792:6811" ph="SELECT DATE " />
-            <marker date="1503337856000" expanded="true" signature="6850:6951" ph="select tid,t... login" />
-            <marker date="1503337856000" expanded="true" signature="7367:7444" ph="SELECT tid,t... todo" />
-            <marker date="1503337856000" expanded="true" signature="7488:7549" ph="SELECT DISTI... login" />
-            <marker date="1503337856000" expanded="true" signature="8166:8203" ph="select uid f... login" />
-            <marker date="1503337856000" expanded="true" signature="8355:8421" ph="insert into todo... " />
-            <marker date="1503337856000" expanded="true" signature="8495:8527" ph="select * FRO... todo" />
-            <marker date="1503337856000" expanded="true" signature="8585:8662" ph="SELECT tid,t... todo" />
-            <marker date="1503337856000" expanded="true" signature="8713:8774" ph="SELECT DISTI... login" />
-            <marker date="1503337856000" expanded="true" signature="9248:9284" ph="select uid f... login" />
-            <marker date="1503337856000" expanded="true" signature="9338:9415" ph="SELECT tid,t... todo" />
-            <marker date="1503337856000" expanded="true" signature="9458:9520" ph="SELECT DISTI... todo" />
-            <marker date="1503337856000" expanded="true" signature="9948:9978" ph="select * fro... todo" />
-            <marker date="1503337856000" expanded="true" signature="10029:10064" ph="SELECT uid f... login" />
-            <marker date="1503337856000" expanded="true" signature="10135:10187" ph="UPDATE todo " />
-            <marker date="1503337856000" expanded="true" signature="10262:10330" ph="select * fro... todo" />
-            <marker date="1503337856000" expanded="true" signature="10469:10546" ph="SELECT tid,t... todo" />
-            <marker date="1503337856000" expanded="true" signature="10597:10658" ph="SELECT DISTI... login" />
-            <marker date="1503337856000" expanded="true" signature="11220:11250" ph="select * fro... todo" />
-            <marker date="1503337856000" expanded="true" signature="11325:11353" ph="DELETE FROM " />
-            <marker date="1503337856000" expanded="true" signature="11406:11442" ph="select uid f... login" />
-            <marker date="1503337856000" expanded="true" signature="11501:11578" ph="SELECT tid,t... todo" />
-            <marker date="1503337856000" expanded="true" signature="11629:11690" ph="SELECT DISTI... login" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -873,7 +883,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2050">
           <caret line="84" column="12" lean-forward="true" selection-start-line="84" selection-start-column="12" selection-end-line="84" selection-end-column="12" />
-          <folding />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -916,57 +928,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8480">
           <caret line="215" column="0" lean-forward="false" selection-start-line="215" selection-start-column="0" selection-end-line="227" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#39#0" expanded="false" />
-            <marker date="1503337856000" expanded="true" signature="993:1053" ph="INSERT INTO login... " />
-            <marker date="1503337856000" expanded="true" signature="1373:1421" ph="SELECT * FRO... login" />
-            <marker date="1503337856000" expanded="true" signature="1540:1559" ph="SELECT * FRO... login" />
-            <marker date="1503337856000" expanded="true" signature="1617:1694" ph="select tid,t... login" />
-            <marker date="1503337856000" expanded="true" signature="1836:1872" ph="select uid f... login" />
-            <marker date="1503337856000" expanded="true" signature="1937:1989" ph="SELECT tid,t... todo" />
-            <marker date="1503337856000" expanded="true" signature="2561:2598" ph="select uid f... login" />
-            <marker date="1503337856000" expanded="true" signature="2750:2816" ph="insert into todo... " />
-            <marker date="1503337856000" expanded="true" signature="2890:2922" ph="select * FRO... todo" />
-            <marker date="1503337856000" expanded="true" signature="2982:3034" ph="SELECT tid,t... todo" />
-            <marker date="1503337856000" expanded="true" signature="3503:3539" ph="select uid f... login" />
-            <marker date="1503337856000" expanded="true" signature="3593:3645" ph="SELECT tid,t... todo" />
-            <marker date="1503337856000" expanded="true" signature="4077:4107" ph="select * fro... todo" />
-            <marker date="1503337856000" expanded="true" signature="4183:4229" ph="UPDATE todo " />
-            <marker date="1503337856000" expanded="true" signature="4297:4365" ph="select * fro... todo" />
-            <marker date="1503337856000" expanded="true" signature="4489:4525" ph="select uid f... login" />
-            <marker date="1503337856000" expanded="true" signature="4584:4636" ph="SELECT tid,t... todo" />
-            <marker date="1503337856000" expanded="true" signature="5190:5220" ph="select * fro... todo" />
-            <marker date="1503337856000" expanded="true" signature="5295:5323" ph="DELETE FROM " />
-            <marker date="1503337856000" expanded="true" signature="5376:5412" ph="select uid f... login" />
-            <marker date="1503337856000" expanded="true" signature="5471:5523" ph="SELECT tid,t... todo" />
-            <marker date="1503337856000" expanded="true" signature="5943:5962" ph="SELECT DATE " />
-            <marker date="1503337856000" expanded="true" signature="5999:6121" ph="select tid,t... login" />
-            <marker date="1503337856000" expanded="true" signature="6378:6397" ph="SELECT DATE " />
-            <marker date="1503337856000" expanded="true" signature="6434:6534" ph="select tid,t... login" />
-            <marker date="1503337856000" expanded="true" signature="6792:6811" ph="SELECT DATE " />
-            <marker date="1503337856000" expanded="true" signature="6850:6951" ph="select tid,t... login" />
-            <marker date="1503337856000" expanded="true" signature="7367:7444" ph="SELECT tid,t... todo" />
-            <marker date="1503337856000" expanded="true" signature="7488:7549" ph="SELECT DISTI... login" />
-            <marker date="1503337856000" expanded="true" signature="8166:8203" ph="select uid f... login" />
-            <marker date="1503337856000" expanded="true" signature="8355:8421" ph="insert into todo... " />
-            <marker date="1503337856000" expanded="true" signature="8495:8527" ph="select * FRO... todo" />
-            <marker date="1503337856000" expanded="true" signature="8585:8662" ph="SELECT tid,t... todo" />
-            <marker date="1503337856000" expanded="true" signature="8713:8774" ph="SELECT DISTI... login" />
-            <marker date="1503337856000" expanded="true" signature="9248:9284" ph="select uid f... login" />
-            <marker date="1503337856000" expanded="true" signature="9338:9415" ph="SELECT tid,t... todo" />
-            <marker date="1503337856000" expanded="true" signature="9458:9520" ph="SELECT DISTI... todo" />
-            <marker date="1503337856000" expanded="true" signature="9948:9978" ph="select * fro... todo" />
-            <marker date="1503337856000" expanded="true" signature="10029:10064" ph="SELECT uid f... login" />
-            <marker date="1503337856000" expanded="true" signature="10135:10187" ph="UPDATE todo " />
-            <marker date="1503337856000" expanded="true" signature="10262:10330" ph="select * fro... todo" />
-            <marker date="1503337856000" expanded="true" signature="10469:10546" ph="SELECT tid,t... todo" />
-            <marker date="1503337856000" expanded="true" signature="10597:10658" ph="SELECT DISTI... login" />
-            <marker date="1503337856000" expanded="true" signature="11220:11250" ph="select * fro... todo" />
-            <marker date="1503337856000" expanded="true" signature="11325:11353" ph="DELETE FROM " />
-            <marker date="1503337856000" expanded="true" signature="11406:11442" ph="select uid f... login" />
-            <marker date="1503337856000" expanded="true" signature="11501:11578" ph="SELECT tid,t... todo" />
-            <marker date="1503337856000" expanded="true" signature="11629:11690" ph="SELECT DISTI... login" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1009,71 +970,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7420">
           <caret line="215" column="0" lean-forward="false" selection-start-line="215" selection-start-column="0" selection-end-line="227" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#39#0" expanded="false" />
-            <marker date="1503337856000" expanded="true" signature="993:1053" ph="INSERT INTO login... " />
-            <marker date="1503337856000" expanded="true" signature="1373:1421" ph="SELECT * FRO... login" />
-            <marker date="1503337856000" expanded="true" signature="1540:1559" ph="SELECT * FRO... login" />
-            <marker date="1503337856000" expanded="true" signature="1617:1694" ph="select tid,t... login" />
-            <marker date="1503337856000" expanded="true" signature="1836:1872" ph="select uid f... login" />
-            <marker date="1503337856000" expanded="true" signature="1937:1989" ph="SELECT tid,t... todo" />
-            <marker date="1503337856000" expanded="true" signature="2561:2598" ph="select uid f... login" />
-            <marker date="1503337856000" expanded="true" signature="2750:2816" ph="insert into todo... " />
-            <marker date="1503337856000" expanded="true" signature="2890:2922" ph="select * FRO... todo" />
-            <marker date="1503337856000" expanded="true" signature="2982:3034" ph="SELECT tid,t... todo" />
-            <marker date="1503337856000" expanded="true" signature="3503:3539" ph="select uid f... login" />
-            <marker date="1503337856000" expanded="true" signature="3593:3645" ph="SELECT tid,t... todo" />
-            <marker date="1503337856000" expanded="true" signature="4077:4107" ph="select * fro... todo" />
-            <marker date="1503337856000" expanded="true" signature="4183:4229" ph="UPDATE todo " />
-            <marker date="1503337856000" expanded="true" signature="4297:4365" ph="select * fro... todo" />
-            <marker date="1503337856000" expanded="true" signature="4489:4525" ph="select uid f... login" />
-            <marker date="1503337856000" expanded="true" signature="4584:4636" ph="SELECT tid,t... todo" />
-            <marker date="1503337856000" expanded="true" signature="5190:5220" ph="select * fro... todo" />
-            <marker date="1503337856000" expanded="true" signature="5295:5323" ph="DELETE FROM " />
-            <marker date="1503337856000" expanded="true" signature="5376:5412" ph="select uid f... login" />
-            <marker date="1503337856000" expanded="true" signature="5471:5523" ph="SELECT tid,t... todo" />
-            <marker date="1503337856000" expanded="true" signature="5943:5962" ph="SELECT DATE " />
-            <marker date="1503337856000" expanded="true" signature="5999:6121" ph="select tid,t... login" />
-            <marker date="1503337856000" expanded="true" signature="6378:6397" ph="SELECT DATE " />
-            <marker date="1503337856000" expanded="true" signature="6434:6534" ph="select tid,t... login" />
-            <marker date="1503337856000" expanded="true" signature="6792:6811" ph="SELECT DATE " />
-            <marker date="1503337856000" expanded="true" signature="6850:6951" ph="select tid,t... login" />
-            <marker date="1503337856000" expanded="true" signature="7367:7444" ph="SELECT tid,t... todo" />
-            <marker date="1503337856000" expanded="true" signature="7488:7549" ph="SELECT DISTI... login" />
-            <marker date="1503337856000" expanded="true" signature="8166:8203" ph="select uid f... login" />
-            <marker date="1503337856000" expanded="true" signature="8355:8421" ph="insert into todo... " />
-            <marker date="1503337856000" expanded="true" signature="8495:8527" ph="select * FRO... todo" />
-            <marker date="1503337856000" expanded="true" signature="8585:8662" ph="SELECT tid,t... todo" />
-            <marker date="1503337856000" expanded="true" signature="8713:8774" ph="SELECT DISTI... login" />
-            <marker date="1503337856000" expanded="true" signature="9248:9284" ph="select uid f... login" />
-            <marker date="1503337856000" expanded="true" signature="9338:9415" ph="SELECT tid,t... todo" />
-            <marker date="1503337856000" expanded="true" signature="9458:9520" ph="SELECT DISTI... todo" />
-            <marker date="1503337856000" expanded="true" signature="9948:9978" ph="select * fro... todo" />
-            <marker date="1503337856000" expanded="true" signature="10029:10064" ph="SELECT uid f... login" />
-            <marker date="1503337856000" expanded="true" signature="10135:10187" ph="UPDATE todo " />
-            <marker date="1503337856000" expanded="true" signature="10262:10330" ph="select * fro... todo" />
-            <marker date="1503337856000" expanded="true" signature="10469:10546" ph="SELECT tid,t... todo" />
-            <marker date="1503337856000" expanded="true" signature="10597:10658" ph="SELECT DISTI... login" />
-            <marker date="1503337856000" expanded="true" signature="11220:11250" ph="select * fro... todo" />
-            <marker date="1503337856000" expanded="true" signature="11325:11353" ph="DELETE FROM " />
-            <marker date="1503337856000" expanded="true" signature="11406:11442" ph="select uid f... login" />
-            <marker date="1503337856000" expanded="true" signature="11501:11578" ph="SELECT tid,t... todo" />
-            <marker date="1503337856000" expanded="true" signature="11629:11690" ph="SELECT DISTI... login" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/first.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1295">
-          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SECONDreviswd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="44" column="38" lean-forward="false" selection-start-line="44" selection-start-column="38" selection-end-line="44" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -1084,31 +980,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/third.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="96" column="42" lean-forward="false" selection-start-line="96" selection-start-column="42" selection-end-line="96" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SECOND.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../aa.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5390">
-          <caret line="157" column="41" lean-forward="false" selection-start-line="157" selection-start-column="41" selection-end-line="157" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -1119,36 +994,131 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/margin.py">
+    <entry file="file://C:/Program Files (x86)/Python36-32/Lib/site-packages/sklearn/utils/validation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="203" column="0" lean-forward="false" selection-start-line="203" selection-start-column="0" selection-end-line="203" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scikitlearn1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files (x86)/Python36-32/Lib/site-packages/sklearn/multioutput.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7210">
+          <caret line="158" column="0" lean-forward="false" selection-start-line="158" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/randomforest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
-          <caret line="6" column="15" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql conn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="26" column="20" lean-forward="true" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/first.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/aptitest.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1960">
+          <caret line="61" column="7" lean-forward="false" selection-start-line="61" selection-start-column="7" selection-end-line="61" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4725">
+          <caret line="135" column="107" lean-forward="false" selection-start-line="135" selection-start-column="107" selection-end-line="135" selection-end-column="107" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/error.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5600">
+          <caret line="160" column="20" lean-forward="false" selection-start-line="160" selection-start-column="20" selection-end-line="160" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openclose.py" />
+    <entry file="file://$PROJECT_DIR$/abcd.py" />
+    <entry file="file://$PROJECT_DIR$/abcdre.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pressure.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="21" column="22" lean-forward="false" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pressure.py">
+    <entry file="file://C:/Program Files (x86)/Python36-32/Lib/unittest/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        <state relative-caret-position="875">
+          <caret line="140" column="0" lean-forward="false" selection-start-line="140" selection-start-column="0" selection-end-line="140" selection-end-column="0" />
+          <folding>
+            <element signature="e#29#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flaskui.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+          <folding>
+            <marker date="1523266071124" expanded="true" signature="441:472" ph="select * fro... personalitysorted" />
+            <marker date="1523266071124" expanded="true" signature="3716:3801" ph="select * fro... mcqquestionsfinal" />
+            <marker date="1523266071124" expanded="true" signature="4177:4262" ph="select * fro... mcqquestionsfinal" />
+            <marker date="1523266071124" expanded="true" signature="4578:4663" ph="select * fro... mcqquestionsfinal" />
+            <marker date="1523266071124" expanded="true" signature="5279:5310" ph="select * fro... mcqquestionsfinal" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SECOND.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/img in img.py">
+    <entry file="file://$PROJECT_DIR$/third.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="7" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files (x86)/Python36-32/Lib/site-packages/sklearn/utils/validation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="203" column="0" lean-forward="false" selection-start-line="203" selection-start-column="0" selection-end-line="203" selection-end-column="0" />
+        <state relative-caret-position="3290">
+          <caret line="96" column="42" lean-forward="false" selection-start-line="96" selection-start-column="42" selection-end-line="96" selection-end-column="42" />
           <folding />
         </state>
       </provider>
@@ -1157,86 +1127,77 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
           <caret line="23" column="4" lean-forward="false" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3381">
+          <caret line="15" column="33" lean-forward="false" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img in img.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="11" column="10" lean-forward="false" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
           <folding>
-            <element signature="e#0#24#0" expanded="true" />
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scikitlearn1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files (x86)/Python36-32/Lib/site-packages/sklearn/multioutput.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7210">
-          <caret line="158" column="0" lean-forward="false" selection-start-line="158" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/randomforest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/demo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="158" column="0" lean-forward="false" selection-start-line="158" selection-start-column="0" selection-end-line="159" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/aptitest.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/personalityedited.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+        <state relative-caret-position="236">
+          <caret line="200" column="29" lean-forward="false" selection-start-line="200" selection-start-column="29" selection-end-line="200" selection-end-column="29" />
           <folding>
-            <marker date="1522401185453" expanded="true" signature="429:443" ph="select * fro... personalitysorted" />
-            <marker date="1522401185453" expanded="true" signature="429:460" ph="select * fro... personalitysorted" />
-            <marker date="1522401185453" expanded="true" signature="4562:4647" ph="select * fro... mcqquestionsfinal" />
-            <marker date="1522401185453" expanded="true" signature="4709:4794" ph="select * fro... mcqquestionsfinal" />
-            <marker date="1522401185453" expanded="true" signature="4839:4924" ph="select * fro... mcqquestionsfinal" />
-            <marker date="1522401185453" expanded="true" signature="5199:5230" ph="select * fro... mcqquestionsfinal" />
+            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1523338629311" expanded="true" signature="441:472" ph="select * fro... personalitysorted" />
+            <marker date="1523338629311" expanded="true" signature="3727:3812" ph="select * fro... mcqquestionsfinal" />
+            <marker date="1523338629311" expanded="true" signature="4188:4273" ph="select * fro... mcqquestionsfinal" />
+            <marker date="1523338629311" expanded="true" signature="4589:4674" ph="select * fro... mcqquestionsfinal" />
+            <marker date="1523338629311" expanded="true" signature="5260:5291" ph="select * fro... mcqquestionsfinal" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sql conn.py">
+    <entry file="file://$PROJECT_DIR$/SECONDreviswd.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="1925">
+          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/margin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1659">
+          <caret line="174" column="7" lean-forward="false" selection-start-line="174" selection-start-column="7" selection-end-line="174" selection-end-column="7" />
           <folding>
-            <element signature="e#253#267#0" expanded="true" />
-            <marker date="1522467823059" expanded="true" signature="388:473" ph="select * fro... mcqquestions" />
-            <marker date="1522467823059" expanded="true" signature="1053:1133" ph="select * fro... mcqquestions" />
-            <marker date="1522467823059" expanded="true" signature="1509:1589" ph="select * fro... mcqquestions" />
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/small.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2352">
+          <caret line="176" column="28" lean-forward="false" selection-start-line="176" selection-start-column="28" selection-end-line="176" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cap.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4865">
+          <caret line="139" column="14" lean-forward="false" selection-start-line="139" selection-start-column="14" selection-end-line="139" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>

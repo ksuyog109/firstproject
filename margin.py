@@ -7,7 +7,8 @@ image = cv2.imread('input1 (1).png')
 #cv2.waitKey(0)
 line=[]
 word=[]
-
+baselineslope=[]
+alllineslope=[]
 image=image[678:2733,166:2469]
 #grayscale
 shapex,shapey,dntknw=image.shape
@@ -106,8 +107,16 @@ for i, ctr in enumerate(ctrs):
         xyright.append(wordsbyline[-1])
         totlenline = wordsbyline[-1][0] + wordsbyline[-1][3] - wordsbyline[0][0]
         ocupiedspace=0
+        print("wordsbyline",wordsbyline)
         for itr in range(0,len(wordsbyline)):
             ocupiedspace=ocupiedspace+wordsbyline[itr][3]
+
+        for itr in range(1,len(wordsbyline)):
+            if(wordsbyline[itr][1]!=wordsbyline[itr-1][1]):
+                baselineslope.append((wordsbyline[itr][2]-wordsbyline[itr-1][2])/(wordsbyline[itr][1]-wordsbyline[itr-1][1]))
+        print("baseline",sum(baselineslope)/len(baselineslope))
+        alllineslope.append(sum(baselineslope)/len(baselineslope))
+        baselineslope.clear()
         freespace.append(totlenline-ocupiedspace)
         #print("freespace",freespace)
     xyleft=sorted(xyleft,key=lambda x:x[1])
@@ -157,6 +166,10 @@ avgslopeleft=sum(slopeleft) / float(len(slopeleft))
 avgsloperight=sum(sloperight) / float(len(sloperight))
 print("avgslopeleft",avgslopeleft)
 print("avgsloperight",avgsloperight)
+print("alllineslope",sum(alllineslope)/len(alllineslope))
+
+
+
 titles = ['gray','thresholdbinary','dialated','final']
 images = [gray, thresh, img_dilation, finimg]
 cv2.imwrite("aa.png",finimg)

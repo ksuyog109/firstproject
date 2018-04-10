@@ -29,7 +29,7 @@ def home():
     flash("asas")
     return render_template("error.html",ip=ip)
 @app.route('/test')
-def personalitytest():
+def test():
     return render_template('test.html',res=res,ip=ip)
 @app.route('/result',methods=['GET'])
 def result():
@@ -171,6 +171,8 @@ def apti():
 
     data=json.dumps(d)
     print(data)
+
+    return render_template()
     return render_template("aptitest.html",ip=ip,aptires=verbaleasy,verbalmid=verbalmid,verbalhard=verbalhard)
 @app.route('/aptiresult')
 def aptiresult():
