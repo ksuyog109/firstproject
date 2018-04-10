@@ -137,7 +137,7 @@ for i in range(1,11):
 
 for i in range(11,15):
     letterlnt=cv2.imread("letter_"+str(i)+".jpg",0 )
-    row,col=le  tterlnt.shape
+    row,col=letterlnt.shape
     sumCap += row
 
 sizeI=sumI/10

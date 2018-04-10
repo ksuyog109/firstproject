@@ -7,15 +7,16 @@ workbook = xlwt.Workbook()
 sheet = workbook.add_sheet("features")
 for imgno in range(1,531):
     image = cv2.imread('input1 ('+str(imgno)+').png')
+    image=cv2.resize(image,(2220,2000))
     #cv2.imshow('orig',image)
     #cv2.waitKey(0)
     line=[]
     word=[]
 
-    image=image[678:2733,166:2469]
+    image=image[410:1563,117:2213]
     #grayscale
     shapex,shapey,dntknw=image.shape
-    #print(shapey)
+    print(shapey,shapex)
     finimg=image
     gray = cv2.cvtColor(image,cv2.COLOR_BGR2GRAY)
     #cv2.imshow('gray',gray)
@@ -153,9 +154,9 @@ for imgno in range(1,531):
         xr1 = xyright[itr][0]
         xr2 = xyright[itr + 1][0]
         if(xl2-xl1!=0):
-            slopeleft.append((yl2-yl1)/(xl2-xl1))
+            slopeleft.append((xl2-xl1)/(yl2-yl1))
         if (xr2 - xr1 != 0):
-            sloperight.append((yr2 - yr1) / (xr2 - xr1))
+            sloperight.append( (xr2 - xr1)/(yr2 - yr1))
     #print("slopeleft",slopeleft)
     #print("sloperight",sloperight)
     if(float(len(slopeleft))!=0):

@@ -28,8 +28,8 @@ app.secret_key = 'some_secret'
 def home():
     flash("asas")
     return render_template("error.html",ip=ip)
-@app.route('/aptitest')
-def aptitest():
+@app.route('/test')
+def personalitytest():
     return render_template('test.html',res=res,ip=ip)
 @app.route('/result',methods=['GET'])
 def result():
