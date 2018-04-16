@@ -1,15 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+     <!--<link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+    -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+
     <title>Title</title>
+    <script type="text/javascript">
+        function nexxt(id){
+
+            //var str=but_20
+            var button20=document.getElementById('butnext_20');
+            var subbut=document.getElementById('sbmtbut');
+            subbut.style.display='none';
+            var y = document.getElementById(id);
+            var z = document.getElementById(id - 1);
+            y.style.display = 'block';
+            z.style.display = 'none';
+            if(id==20){
+                button20.style.display='none';
+                subbut.style.display='block';
+            }
+
+
+        }
+        function previ(id) {
+            var buttonprev1=document.getElementById('butprev_1');
+            var subbut=document.getElementById('sbmtbut');
+            subbut.style.display='none';
+
+            var y = document.getElementById(id-1);
+            var z = document.getElementById(id);
+            y.style.display = 'block';
+            z.style.display = 'none';
+            if(id==1){
+                buttonprev1.style.display='none';
+            }
+        }
+        console.log()
+    </script>
+</head>
+<body>
+
 
     <form class="form" action="http://{{ip}}:5000/aptiresult" method="get">
         {% set count = [1] %}
         {% for item in aptires %}
-            <div class="switch-field">
-                <div class="switch-title">Q.{{ count[0] }} {{item[3]}}</div>
-                <input  type="radio" id="op1_{{item[0]}}"  name="aptique{{item[0]}}" value="1" required checked/>
+            <div class="container" id="{{count[0]}}" >
+                <div >Q.{{ count[0] }} {{item[3]}}</div>
+                <input  type="radio" id="op1_{{item[0]}}"  name="aptique{{item[0]}}" value="1" required />
       <label for="op1_{{item[0]}}" >{{item[4]}}</label>
             <input  type="radio" id="op2_{{item[0]}}"  name="aptique{{item[0]}}" value="2" required/>
       <label for="op2_{{item[0]}}" >{{item[5]}}</label>
@@ -17,46 +64,35 @@
       <label for="op3_{{item[0]}}" >{{item[6]}}</label>
                 <input  type="radio" id="op4_{{item[0]}}"  name="aptique{{item[0]}}" value="4" required/>
       <label for="op4_{{item[0]}}" >{{item[7]}}</label><br><br>
+
+
+
+                <button class="btn btn-primary" id="butnext_{{count[0]}}" type="button" onclick="nexxt('{{count[0]+1}}')">nexxxt</button>
+                <button class="btn btn-primary" id="butprev_{{count[0]}}" type="button" onclick="previ('{{count[0]}}')">prev</button>
+
+
+                <script>
+
+                    var question=document.getElementById('{{count[0]}}');
+                    question.style.display='none';
+                </script>
             {% if count.append(count.pop() + 1) %}{% endif %}
+                {{count[0]}}
             </div>
         {% endfor %}
+         <script>
 
+             var question=document.getElementById('1');
+             var hide1=document.getElementById('butprev_1');
+                    question.style.display='block';
+                    hide1.style.display='none';
+         </script>
 
-        {% for item in verbalmid %}
-            <div class="switch-field">
-                <div class="switch-title">Q.{{ count[0] }} {{item[3]}}</div>
-                <input  type="radio" id="op1_{{item[0]}}"  name="aptique{{item[0]}}" value="1" required checked/>
-      <label for="op1_{{item[0]}}" >{{item[4]}}</label>
-            <input  type="radio" id="op2_{{item[0]}}"  name="aptique{{item[0]}}" value="2" required/>
-      <label for="op2_{{item[0]}}" >{{item[5]}}</label>
-                <input  type="radio" id="op3_{{item[0]}}"  name="aptique{{item[0]}}" value="3" required/>
-      <label for="op3_{{item[0]}}" >{{item[6]}}</label>
-                <input  type="radio" id="op4_{{item[0]}}"  name="aptique{{item[0]}}" value="4" required/>
-      <label for="op4_{{item[0]}}" >{{item[7]}}</label><br><br>
-            {% if count.append(count.pop() + 1) %}{% endif %}
-            </div>
-        {% endfor %}
-
-
-        {% for item in verbalhard %}
-            <div class="switch-field">
-                <div class="switch-title">Q.{{ count[0] }} {{item[3]}}</div>
-                <input  type="radio" id="op1_{{item[0]}}"  name="aptique{{item[0]}}" value="1" required checked/>
-      <label for="op1_{{item[0]}}" >{{item[4]}}</label>
-            <input  type="radio" id="op2_{{item[0]}}"  name="aptique{{item[0]}}" value="2" required/>
-      <label for="op2_{{item[0]}}" >{{item[5]}}</label>
-                <input  type="radio" id="op3_{{item[0]}}"  name="aptique{{item[0]}}" value="3" required/>
-      <label for="op3_{{item[0]}}" >{{item[6]}}</label>
-                <input  type="radio" id="op4_{{item[0]}}"  name="aptique{{item[0]}}" value="4" required/>
-      <label for="op4_{{item[0]}}" >{{item[7]}}</label><br><br>
-            {% if count.append(count.pop() + 1) %}{% endif %}
-            </div>
-        {% endfor %}
-
-      <button type="submit" class="button button2">Next</button>
+        <br>
+        <br>
+      <div class="container"><button class="btn btn-success" id="sbmtbut" type="submit" class="button button2">Submit</button></div>
+        <script>var subbut=document.getElementById('sbmtbut');subbut.style.display='none';</script>
     </form>
-</head>
-<body>
 
 </body>
 </html>

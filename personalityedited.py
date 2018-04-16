@@ -172,6 +172,29 @@ def apti():
     data=json.dumps(d)
     print(data)
     return render_template("aptitest.html",ip=ip,aptires=verbaleasy,verbalmid=verbalmid,verbalhard=verbalhard)
+
+
+@app.route('/aptisingle')
+def aptittude():
+
+    d={}
+    questioncount=1
+    c.execute("select * from mcqquestionsfinal where qtypeid=1  order by rand() limit 20")
+    verbal=c.fetchall()
+    for row in verbal:
+        d['que'+str(questioncount)]={'id':str(row[0]),'qtype':row[1],'dtype':row[2],'question':str(row[3]),'opt1':str(row[4]),'opt2':str(row[5]),'opt3':str(row[6]),'opt4':str(row[7]),'correct':str(row[8])}
+        questioncount= questioncount+1
+
+    #print(aptireseasy)
+
+    data=json.dumps(d)
+    print(data)
+    return render_template("aptitest.html",ip=ip,aptires=verbal)
+
+
+
+
+
 @app.route('/aptiresult')
 def aptiresult():
     args = parser.parse_args()
@@ -196,6 +219,11 @@ def aptiresult():
                     scorequant = scorequant + 1
 
     return "your verbal score is :"+str(scoreverbal)
+
+@app.route('/demo')
+def demo():
+    return render_template('demobootstrap.html')
+
 
 if __name__ == '__main__':
     app.run(host=ip,debug=True)
